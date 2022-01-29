@@ -1,7 +1,7 @@
 @import url(https://pro.fontawesome.com/releases/v5.10.0/css/all.css);
 @import url(/docsite-css/navbar.css);
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url(/components/colors.css);
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
 @font-face {
   font-family: "ultraregular";
   src: url("/fonts/ultra.woff") format("woff2"),
@@ -32,12 +32,12 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  /* font-family: "Ubuntu", sans-serif; */
   font-family: "Nunito", sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
 }
 /********/
+
 .container {
   width: 80%;
   margin: auto;
@@ -62,9 +62,6 @@ body {
 }
 .main-description {
   text-align: center;
-}
-.highlight-span {
-  font-family: "ultraregular", sans-serif;
 }
 .main-cta-section {
   display: flex;

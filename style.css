@@ -75,8 +75,8 @@ body {
   color: var(--secondary-color);
   border: none;
   border-radius: 0.3rem;
-  padding: 0.8rem;
-  font-size: 1.2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
   font-weight: bold;
   font-family: "Nunito", sans-serif;
   cursor: pointer;
@@ -85,7 +85,23 @@ body {
   opacity: 0.9;
 }
 /********/
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 650px) {
+  .main-title {
+    font-size: 2.8rem;
+    max-width: 40rem;
+    margin: auto;
+  }
+  .main-description {
+    font-size: 1.5rem;
+    max-width: 51rem;
+    margin: auto;
+  }
+  .main-cta-button {
+    padding: 0.6rem;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 900px) {
   .main-title {
     font-size: 3.5rem;
     max-width: 40rem;
@@ -95,5 +111,9 @@ body {
     font-size: 1.8rem;
     max-width: 51rem;
     margin: auto;
+  }
+  .main-cta-button {
+    padding: 0.8rem;
+    font-size: 1.2rem;
   }
 }

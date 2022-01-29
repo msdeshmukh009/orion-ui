@@ -1,0 +1,60 @@
+@import url(/components/colors.css);
+@font-face {
+  font-family: "ultraregular";
+  src: url("/fonts/ultra.woff") format("woff2"),
+    url("/fonts/ultra.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.nav-bar {
+  display: flex;
+  width: 100%;
+  padding: 1rem 0;
+  max-width: 2000px;
+}
+.nav-bar-links {
+  text-decoration: none;
+  color: var(--primary-color);
+  display: flex;
+  align-items: baseline;
+}
+.nav-bar-links:hover {
+  opacity: 0.9;
+}
+
+.nav-bar-title {
+  font-family: "ultraregular", sans-serif;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+.nav-bar-subtitle {
+  color: var(--lighter-primary-color);
+  border-radius: 0.3rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.nav-bar ul {
+  padding-inline-start: 0;
+}
+.nav-bar-list {
+  list-style: none;
+  display: flex;
+  margin-right: 1rem;
+  margin-left: auto;
+  width: 5rem;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1rem;
+}
+@media only screen and (min-width: 550px) {
+  .nav-bar {
+    padding: 2rem 1rem;
+  }
+  .nav-bar-title {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  .nav-bar-list a {
+    font-size: 1.2rem;
+  }
+}

@@ -1,6 +1,8 @@
 @import url(/components/colors.css);
 @import url(/docsite-css/sidebar.css);
 @import url(/docsite-css/navbar.css);
+@import url(/docsite-css/component-display-conatiner.css);
+@import url(/docsite-css/code-display-container.css);
 /*** grid-layout  ***/
 .grid-page-layout {
   display: grid;

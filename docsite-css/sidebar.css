@@ -1,0 +1,77 @@
+@import url(/components/colors.css);
+
+/*** sidebar ***/
+.sidebar {
+  grid-area: sidebar;
+  position: sticky;
+  top: 1rem;
+  height: 100vh;
+  padding: 1rem;
+  border-right: 2px solid var(--primary-color);
+}
+.sidebar-list {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 2rem;
+}
+.sidebar-links {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--text-color);
+  display: inline-block;
+  width: 100%;
+  border-radius: 0.3rem;
+  border: 2px solid transparent;
+}
+.sidebar-links:hover {
+  background-color: var(--light-secondary-color);
+  color: var(--primary-color);
+  transition: 0.3s ease;
+}
+
+.burger-menu-button {
+  display: none;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  font-size: 1.1rem;
+  border: none;
+}
+.close-btn {
+  display: none;
+}
+/*******/
+
+/*** media-quires ***/
+@media only screen and (max-width: 800px) {
+  .sidebar {
+    width: 80%;
+    left: -100rem;
+    justify-content: center;
+    background-color: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
+    border: none;
+  }
+  .show-sidebar {
+    top: 0;
+    left: 0;
+  }
+  .burger-menu-button {
+    display: block;
+  }
+
+  .close-btn {
+    display: block;
+    background-color: hsl(0 0% 100% / 0.1);
+    color: var(--primary-color);
+    border: none;
+    font-size: 1.5rem;
+  }
+}

@@ -9,6 +9,7 @@
 .nav-bar {
   grid-area: nav;
   display: flex;
+  align-items: center;
   width: 100%;
   padding: 1rem 0;
   max-width: 2000px;

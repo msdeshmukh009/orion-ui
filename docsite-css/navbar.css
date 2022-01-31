@@ -7,6 +7,7 @@
   font-style: normal;
 }
 .nav-bar {
+  grid-area: nav;
   display: flex;
   width: 100%;
   padding: 1rem 0;

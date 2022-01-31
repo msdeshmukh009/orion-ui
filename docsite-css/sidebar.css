@@ -8,6 +8,7 @@
   height: 100vh;
   padding: 1rem;
   border-right: 2px solid var(--primary-color);
+  z-index: 1;
 }
 .sidebar-list {
   padding-inline-start: 0;
@@ -43,6 +44,10 @@
 }
 .close-btn {
   display: none;
+}
+.active-sidebar-link {
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--primary-color);
 }
 /*******/
 

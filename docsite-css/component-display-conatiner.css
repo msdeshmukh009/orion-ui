@@ -1,0 +1,10 @@
+.component-display-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  border: 2px solid rgb(221, 217, 217);
+  border-radius: 0.3rem;
+  padding: 2rem;
+  margin: 1rem;
+  column-gap: 1rem;
+}

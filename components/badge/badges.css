@@ -11,13 +11,13 @@
   position: absolute;
 }
 .online-badge {
-  background-color: green;
+  background-color: var(--badge-online-color);
 }
 .offline-badge {
-  background-color: rgb(165, 164, 164);
+  background-color: var(--badge-offline-color);
 }
 .dnd-badge {
-  background-color: rgb(233, 76, 76);
+  background-color: var(--badge-dnd-color);
   color: var(--secondary-color);
   font-size: 1.4rem;
   display: flex;

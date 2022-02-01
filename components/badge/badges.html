@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/docsite-css/doc-site.css" />
+    <link rel="stylesheet" href="badges.css" />
+    <link rel="stylesheet" href="/components/avatar/avatar.css" />
+    <title>Badges</title>
+  </head>
+  <body>
+    <div class="doc-container grid-page-layout">
+      <nav class="nav-bar">
+        <h2 class="nav-bar-title">
+          <button id="menu-icon-button" class="burger-menu-button">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a href="/index.html" class="nav-bar-links">Orion</a>
+          <span class="nav-bar-subtitle">v1.0</span>
+        </h2>
+        <ul class="nav-bar-list">
+          <li><a class="nav-bar-links" href="/index.html">Home</a></li>
+          <li>
+            <a class="nav-bar-links" href="/"> <i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="sidebar" class="sidebar">
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-list">
+          <li>
+            <a class="sidebar-links" href="/components/avatar/avatar.html">Avatar</a>
+          </li>
+          <li><a class="sidebar-links" href="/doc.html">Alert</a></li>
+          <li>
+            <a class="sidebar-links active-sidebar-link" href="/components/badge/badges.html">Badges</a>
+          </li>
+          <li><a class="sidebar-links" href="/doc.html">Button</a></li>
+          <li><a class="sidebar-links" href="/doc.html">Card</a></li>
+          <li><a class="sidebar-links" href="/doc.html">Image</a></li>
+          <li><a class="sidebar-links" href="/doc.html">Input</a></li>
+        </ul>
+      </div>
+
+      <main id="doc-main-content" class="doc-main-content">
+        <div class="component-description">
+          <h1>Badges</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate illo atque exercitationem, aliquid dolor odit sequi aliquam
+            provident non!
+          </p>
+        </div>
+
+        <div class="componet-variation-description">
+          <h2>Status Badge</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+        <div class="component-display-container">
+          <div class="badge-container">
+            <div class="avatar avatar-lg-size">
+              <img class="responsive-img rounded-img" src="/assets/reddit-avatar.png" alt="avatar" />
+            </div>
+            <span class="status-badge online-badge"></span>
+          </div>
+          <div class="badge-container">
+            <div class="avatar avatar-md-size">
+              <img class="responsive-img rounded-img" src="/assets/reddit-avatar3.png" alt="avatar" />
+            </div>
+            <span class="status-badge dnd-badge"></span>
+          </div>
+          <div class="badge-container">
+            <div class="avatar avatar-sm-size">
+              <img class="responsive-img rounded-img" src="/assets/reddit-avatar2.png" alt="avatar" />
+            </div>
+            <span class="status-badge offline-badge"></span>
+          </div>
+          <div class="badge-container">
+            <div class="avatar avatar-xs-size">
+              <img class="responsive-img rounded-img" src="/assets/reddit-avatar2.png" alt="avatar" />
+            </div>
+            <span class="status-badge online-badge"></span>
+          </div>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-lg-size%2522%253E%250A%2509%2509%253Cimg%2520class%253D%2522responsive-img%2520rounded-img%2522%2520src%253D%2522%252Fassets%252Freddit-avatar.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%2509%253Cspan%2520class%253D%2522status-badge%2520online-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-md-size%2522%253E%250A%2509%2509%253Cimg%2520class%253D%2522responsive-img%2520rounded-img%2522%2520src%253D%2522%252Fassets%252Freddit-avatar3.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%2509%253Cspan%2520class%253D%2522status-badge%2520dnd-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-sm-size%2522%253E%250A%2509%2509%253Cimg%2520class%253D%2522responsive-img%2520rounded-img%2522%2520src%253D%2522%252Fassets%252Freddit-avatar2.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%2509%253Cspan%2520class%253D%2522status-badge%2520offline-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-xs-size%2522%253E%250A%2509%2509%253Cimg%2520class%253D%2522responsive-img%2520rounded-img%2522%2520src%253D%2522%252Fassets%252Freddit-avatar2.png%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%2509%253Cspan%2520class%253D%2522status-badge%2520online-badge%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+
+        <div class="componet-variation-description">
+          <h2>Icon Badges</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+
+        <div class="component-display-container">
+          <a class="anchor-tag-badge-container" href="/components/badge/badges.html">
+            <span class="badge-container"
+              ><i class="fas fa-envelope"></i>
+              <span class="status-badge number-badge">3</span>
+            </span>
+          </a>
+          <a class="anchor-tag-badge-container" href="/components/badge/badges.html">
+            <span class="badge-container"
+              ><i class="fas fa-home"></i>
+              <span class="status-badge number-badge">3</span>
+            </span>
+          </a>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520class%253D%2522anchor-tag-badge-container%2522%2520href%253D%2522%252Fcomponents%252Fbadge%252Fbadges.html%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge-container%2522%253E%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2509%2509%253Cspan%2520class%253D%2522status-badge%2520number-badge%2522%253E3%253C%252Fspan%253E%250A%2509%253C%252Fspan%253E%250A%253C%252Fa%253E%250A%253Ca%2520class%253D%2522anchor-tag-badge-container%2522%2520href%253D%2522%252Fcomponents%252Fbadge%252Fbadges.html%2522%253E%250A%2509%253Cspan%2520class%253D%2522badge-container%2522%253E%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%250A%2509%2509%253Cspan%2520class%253D%2522status-badge%2520number-badge%2522%253E3%253C%252Fspan%253E%250A%2509%253C%252Fspan%253E%250A%253C%252Fa%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+      </main>
+    </div>
+    <script src="/docsite-js/sidebar.js"></script>
+  </body>
+</html>

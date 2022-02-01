@@ -1,0 +1,41 @@
+@import url(/components/colors.css);
+/*** images ***/
+.responsive-img {
+  width: 100%;
+  height: 100%;
+}
+.rounded-img {
+  border-radius: 50%;
+}
+/*******/
+.avatar {
+  border-radius: 50%;
+  border: 2px solid var(--secondary-color);
+}
+.avatar-lg-size {
+  width: 10rem;
+  height: 10rem;
+  font-size: 3rem;
+}
+.avatar-md-size {
+  height: 5rem;
+  width: 5rem;
+  font-size: 2rem;
+}
+.avatar-sm-size {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+.avatar-xs-size {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+.text-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}

@@ -1,0 +1,46 @@
+@import url(/components/colors.css);
+.alert-box {
+  width: 100%;
+  max-width: 70rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.3rem;
+  position: relative;
+}
+.alert-primary {
+  background-color: var(--primary-alert-bg-color);
+  color: var(--primary-alert-text-color);
+}
+.alert-secondary {
+  background-color: var(--secondary-alert-bg-color);
+  color: var(--secondary-alert-text-color);
+}
+.alert-success {
+  background-color: var(--success-alert-bg-color);
+  color: var(--success-alert-text-color);
+}
+.alert-danger {
+  background-color: var(--danger-alert-bg-color);
+  color: var(--danger-alert-text-color);
+}
+.alert-warning {
+  background-color: var(--warning-alert-bg-color);
+  color: var(--warning-alert-text-color);
+}
+.alert-success span,
+.alert-danger span,
+.alert-warning span {
+  margin-right: 1rem;
+}
+
+.alert-close-btn {
+  background-color: transparent;
+  border: none;
+  color: var(--text-color);
+  opacity: 1;
+  position: absolute;
+  right: 1rem;
+  font-size: 1.2rem;
+}
+.alert-close-btn:hover {
+  opacity: 0.5;
+}

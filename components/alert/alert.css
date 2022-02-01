@@ -7,24 +7,24 @@
   position: relative;
 }
 .alert-primary {
-  background-color: rgb(174, 237, 253);
-  color: rgb(35, 113, 133);
+  background-color: var(--primary-alert-bg-color);
+  color: var(--primary-alert-text-color);
 }
 .alert-secondary {
-  background-color: rgb(235, 225, 225);
-  color: rgb(122, 121, 121);
+  background-color: var(--secondary-alert-bg-color);
+  color: var(--secondary-alert-text-color);
 }
 .alert-success {
-  background-color: rgb(139, 250, 139);
-  color: rgb(40, 122, 40);
+  background-color: var(--success-alert-bg-color);
+  color: var(--success-alert-text-color);
 }
 .alert-danger {
-  background-color: rgb(255, 159, 173);
-  color: rgb(211, 38, 64);
+  background-color: var(--danger-alert-bg-color);
+  color: var(--danger-alert-text-color);
 }
 .alert-warning {
-  background-color: rgb(255, 206, 132);
-  color: rgb(204, 137, 36);
+  background-color: var(--warning-alert-bg-color);
+  color: var(--warning-alert-text-color);
 }
 .alert-success span,
 .alert-danger span,
@@ -35,7 +35,7 @@
 .alert-close-btn {
   background-color: transparent;
   border: none;
-  color: rgb(204, 137, 36);
+  color: var(--text-color);
   opacity: 1;
   position: absolute;
   right: 1rem;

@@ -8,4 +8,8 @@
 
   --background-color: #fdfeff;
   --text-color: rgb(47, 48, 49);
+
+  --badge-online-color: rgb(63, 197, 63);
+  --badge-offline-color: rgb(165, 164, 164);
+  --badge-dnd-color: rgb(233, 76, 76);
 }

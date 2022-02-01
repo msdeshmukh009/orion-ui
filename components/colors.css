@@ -17,4 +17,15 @@
   --btn-warning-color: rgb(248, 176, 68);
   --btn-dark-color: #131212;
   --btn-danger-color: rgb(235, 45, 73);
+
+  --primary-alert-bg-color: rgb(174, 237, 253);
+  --primary-alert-text-color: rgb(35, 113, 133);
+  --secondary-alert-bg-color: rgb(235, 225, 225);
+  --secondary-alert-text-color: rgb(122, 121, 121);
+  --success-alert-bg-color: rgb(139, 250, 139);
+  --success-alert-text-color: rgb(40, 122, 40);
+  --danger-alert-bg-color: rgb(255, 159, 173);
+  --danger-alert-text-color: rgb(211, 38, 64);
+  --warning-alert-bg-color: rgb(255, 206, 132);
+  --warning-alert-text-color: rgb(204, 137, 36);
 }

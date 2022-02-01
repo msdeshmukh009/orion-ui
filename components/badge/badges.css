@@ -13,6 +13,32 @@
 .online-badge {
   background-color: green;
 }
+.offline-badge {
+  background-color: rgb(165, 164, 164);
+}
+.dnd-badge {
+  background-color: rgb(233, 76, 76);
+  color: var(--secondary-color);
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dnd-badge::after {
+  content: "-";
+}
+.number-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.anchor-tag-badge-container {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 1rem;
+}
 .badge-container .avatar-lg-size ~ .status-badge {
   bottom: 0.7rem;
   right: 1rem;
@@ -34,4 +60,21 @@
   right: 0;
   width: 0.8rem;
   height: 0.8rem;
+}
+.number-badge {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  bottom: 0.8rem;
+  right: -1rem;
+}
+.text-with-badge .status-badge {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -0.8rem;
+  right: -1rem;
+  border: none;
 }

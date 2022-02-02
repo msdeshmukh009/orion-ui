@@ -56,7 +56,7 @@
   width: 30rem;
 }
 .horizontal-card .card-image-container {
-  width: 30%;
+  width: 40%;
   flex-shrink: 0;
 }
 .horizontal-card .card-image-container img {
@@ -95,7 +95,7 @@
 .overlay-container {
   position: absolute;
   inset: 0 0 0 0;
-  background-color: rgb(234, 234, 236, 0.6);
+  background-color: var(--card-overlay-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,17 +103,17 @@
 
 .overlay-text {
   font-size: 2.5rem;
-  background-color: #eaeaec;
+  background-color: var(--card-overlay-text-color);
   font-weight: 500;
 }
 /*******/
 
 /*** shadow ***/
 .shadow {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: var(--card-shadow);
 }
 .shadow:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: var(--card-hover-shadow);
 }
 /*******/
 @media only screen and (max-width: 600px) {

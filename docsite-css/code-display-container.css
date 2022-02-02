@@ -14,3 +14,6 @@
   border: 0;
   transform: scale(1);
 }
+.code-display-container + .code-display-container {
+  margin-top: 1rem;
+}

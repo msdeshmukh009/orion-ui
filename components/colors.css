@@ -28,4 +28,10 @@
   --danger-alert-text-color: rgb(211, 38, 64);
   --warning-alert-bg-color: rgb(255, 206, 132);
   --warning-alert-text-color: rgb(204, 137, 36);
+
+  --card-overlay-color: rgb(234, 234, 236, 0.6);
+  --card-overlay-text-color: #eaeaec;
+
+  --card-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  --card-hover-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }

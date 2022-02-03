@@ -1,0 +1,80 @@
+@import url(/components/colors.css);
+.input-grp {
+  width: 100%;
+  margin: 1rem 0 0.5rem;
+}
+.form-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.form-label-required::after {
+  content: "*";
+  color: var(--btn-danger-color);
+}
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 0.65rem 1rem;
+  border-radius: 0.3rem;
+  border: 2px solid var(--secondary-color);
+  outline: none;
+}
+.form-field:focus {
+  box-shadow: 0 0 0 1px var(--primary-color);
+}
+.form-field:disabled {
+  background-color: var(--card-overlay-text-color);
+}
+
+/*** validator-inputs ***/
+.input-grp-success {
+  color: var(--btn-success-color);
+}
+.input-grp-success input {
+  border: 2px solid var(--btn-success-color);
+}
+.input-grp-success input::placeholder {
+  color: var(--btn-success-color);
+}
+.input-grp-success input:focus {
+  border: 2px solid var(--secondary-color);
+  box-shadow: 0 0 0 1px var(--primary-color);
+}
+.input-grp-error {
+  color: var(--danger-alert-text-color);
+}
+.input-grp-error input {
+  border: 2px solid var(--danger-alert-text-color);
+}
+.input-grp-error input:focus {
+  border: 2px solid var(--secondary-color);
+  box-shadow: 0 0 0 1px var(--primary-color);
+}
+.input-grp-error input::placeholder {
+  border: 2px solid var(--danger-alert-text-color);
+}
+.txt-message {
+  font-size: 0.8rem;
+}
+/*******/
+
+/*** signup-form ***/
+.form-grp {
+  background-color: var(--light-secondary-color);
+  padding: 1rem 2rem;
+  border-radius: 00.3rem;
+  width: 25rem;
+}
+.form-heading {
+  text-align: center;
+}
+.btn-submit {
+  width: 100%;
+  margin-top: 1rem;
+}
+/*******/
+@media only screen and (max-width: 600px) {
+  .form-grp {
+    width: 100%;
+  }
+}

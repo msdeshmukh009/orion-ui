@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/docsite-css/doc-site.css" />
+    <link rel="stylesheet" href="inputs.css" />
+    <link rel="stylesheet" href="/components/buttons/buttons.css" />
+    <title>Inputs</title>
+  </head>
+  <body>
+    <div class="doc-container grid-page-layout">
+      <nav class="nav-bar">
+        <h2 class="nav-bar-title">
+          <button id="menu-icon-button" class="burger-menu-button">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a href="/index.html" class="nav-bar-links">Orion</a>
+          <span class="nav-bar-subtitle">v1.0</span>
+        </h2>
+        <ul class="nav-bar-list">
+          <li><a class="nav-bar-links" href="/index.html">Home</a></li>
+          <li>
+            <a class="nav-bar-links" href="/"> <i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="sidebar" class="sidebar">
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-list">
+          <li>
+            <a class="sidebar-links" href="/components/avatar/avatar.html">Avatar</a>
+          </li>
+          <li>
+            <a class="sidebar-links" href="/components/alert/alerts.html">Alerts</a>
+          </li>
+          <li>
+            <a class="sidebar-links" href="/components/badge/badges.html">Badges</a>
+          </li>
+          <li><a class="sidebar-links" href="/components/buttons/buttons.html">Button</a></li>
+          <li><a class="sidebar-links" href="/components/cards/cards.html">Cards</a></li>
+          <li><a class="sidebar-links" href="/components/images/images.html">Images</a></li>
+          <li><a class="sidebar-links active-sidebar-link" href="/components/inputs/inputs.html">Input</a></li>
+        </ul>
+      </div>
+
+      <main id="doc-main-content" class="doc-main-content">
+        <div class="component-description">
+          <h1>Inputs</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate illo atque exercitationem, aliquid dolor odit sequi aliquam
+            provident non!
+          </p>
+        </div>
+        <!-- simple inputs -->
+        <div class="componet-variation-description">
+          <h2>Simple Inputs</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+        <div class="component-display-container">
+          <div class="input-grp">
+            <label class="form-label form-label-required">Email</label>
+            <input class="form-field" type="email" placeholder="example@xyz.com" required />
+          </div>
+
+          <div class="input-grp">
+            <label class="form-label">Textarea</label>
+            <textarea class="form-field" cols="30" rows="3" placeholder="write your thoughts..."></textarea>
+          </div>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EEmail%253C%252Flabel%253E%250A%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522example%2540xyz.com%2522%2520required%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%253Clabel%2520class%253D%2522form-label%2522%253ETextarea%253C%252Flabel%253E%250A%2509%253Ctextarea%2520class%253D%2522form-field%2522%2520cols%253D%252230%2522%2520rows%253D%25223%2522%2520placeholder%253D%2522write%2520your%2520thoughts...%2522%253E%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <!-- ----------------------- -->
+
+        <!-- disabled inputs -->
+        <div class="componet-variation-description">
+          <h2>Disabled Inputs</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+        <div class="component-display-container">
+          <div class="input-grp">
+            <label class="form-label">Email</label>
+            <input class="form-field" type="email" placeholder="disabled input" disabled />
+          </div>
+
+          <div class="input-grp">
+            <label class="form-label">Textarea</label>
+            <textarea class="form-field" cols="30" rows="3" placeholder="disabled textarea" disabled></textarea>
+          </div>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%253Clabel%2520class%253D%2522form-label%2522%253EEmail%253C%252Flabel%253E%250A%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522disabled%2520input%2522%2520disabled%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%253Clabel%2520class%253D%2522form-label%2522%253ETextarea%253C%252Flabel%253E%250A%2509%253Ctextarea%2520class%253D%2522form-field%2522%2520cols%253D%252230%2522%2520rows%253D%25223%2522%2520placeholder%253D%2522disabled%2520textarea%2522%2520disabled%253E%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <!-- ----------------------- -->
+
+        <!-- validator inputs -->
+        <div class="componet-variation-description">
+          <h2>Success/Error validator Input</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+
+        <div class="component-display-container">
+          <div class="input-grp input-grp-success">
+            <label class="form-label form-label-required">Password</label>
+            <input class="form-field" type="password" />
+            <div class="txt-message">strong password</div>
+          </div>
+
+          <div class="input-grp input-grp-error">
+            <label class="form-label">Password</label>
+            <input class="form-field" type="password" />
+            <div class="txt-message">Minimum 8 characters required!</div>
+          </div>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-grp%2520input-grp-success%2522%253E%250A%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EPassword%253C%252Flabel%253E%250A%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522password%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522txt-message%2522%253Estrong%2520password%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-grp%2520input-grp-error%2522%253E%250A%2509%253Clabel%2520class%253D%2522form-label%2522%253EPassword%253C%252Flabel%253E%250A%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522password%2522%2520%252F%253E%250A%2509%253Cdiv%2520class%253D%2522txt-message%2522%253EMinimum%25208%2520characters%2520required%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <!-- ----------------------- -->
+
+        <!-- Signup from example -->
+        <div class="componet-variation-description">
+          <h2>Signup from example</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+
+        <div class="component-display-container">
+          <form class="form-grp">
+            <h2 class="form-heading">SignUp</h2>
+            <div class="input-grp">
+              <label class="form-label form-label-required">Email</label>
+              <input class="form-field" type="email" placeholder="example@xyz.com" />
+            </div>
+            <div class="input-grp">
+              <label class="form-label form-label-required">Username</label>
+              <input class="form-field" type="text" placeholder="ex. cooluser" />
+            </div>
+            <div class="input-grp">
+              <label class="form-label form-label-required">Password</label>
+              <input class="form-field" type="password" />
+            </div>
+            <div class="input-grp">
+              <label class="form-label form-label-required">Confirm Password</label>
+              <input class="form-field" type="password" />
+            </div>
+            <button class="btn btn-primary btn-submit">SignUp</button>
+          </form>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form-grp%2522%253E%250A%2509%253Ch2%2520class%253D%2522form-heading%2522%253ESignUp%253C%252Fh2%253E%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EEmail%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522example%2540xyz.com%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EUsername%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522ex.%2520cooluser%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EPassword%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522password%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EConfirm%2520Password%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522password%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%250A%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-submit%2522%253ESignUp%253C%252Fbutton%253E%250A%253C%252Fform%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <!-- ----------------------- -->
+      </main>
+    </div>
+    <script src="/docsite-js/sidebar.js"></script>
+  </body>
+</html>

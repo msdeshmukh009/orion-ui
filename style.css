@@ -4,8 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
 @font-face {
   font-family: "ultraregular";
-  src: url("/fonts/ultra.woff") format("woff2"),
-    url("/fonts/ultra.woff") format("woff");
+  src: url("/fonts/ultra.woff") format("woff2"), url("/fonts/ultra.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

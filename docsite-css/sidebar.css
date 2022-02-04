@@ -59,12 +59,17 @@
     width: 80%;
     left: -100rem;
     justify-content: center;
-    background-color: hsl(0 0% 100% / 0.1);
-    backdrop-filter: blur(8px);
+    background-color: hsl(0 0% 100% / 0.85);
     position: fixed;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     transition: all 0.5s ease-in-out;
     border: none;
+  }
+  @supports (backdrop-filter: blur(8px)) {
+    .sidebar {
+      background-color: hsl(0 0% 100% / 0.1);
+      backdrop-filter: blur(8px);
+    }
   }
   .show-sidebar {
     top: 0;

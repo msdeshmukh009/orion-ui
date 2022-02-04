@@ -9,6 +9,10 @@
   padding: 1rem;
   border-right: 2px solid var(--primary-color);
   z-index: 1;
+  overflow: scroll;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
 }
 .sidebar-list {
   padding-inline-start: 0;
@@ -18,11 +22,10 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  row-gap: 2rem;
+  row-gap: 1rem;
   border-radius: 0.3rem;
 }
 .sidebar-links {
-  font-size: 1.2rem;
   text-decoration: none;
   color: var(--text-color);
   display: inline-block;

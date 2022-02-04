@@ -20,7 +20,7 @@
   outline: none;
 }
 .form-field:focus {
-  box-shadow: 0 0 0 1px var(--primary-color);
+  box-shadow: var(--form-field-shadow);
 }
 .form-field:disabled {
   background-color: var(--card-overlay-text-color);
@@ -38,7 +38,7 @@
 }
 .input-grp-success input:focus {
   border: 2px solid var(--secondary-color);
-  box-shadow: 0 0 0 1px var(--primary-color);
+  box-shadow: var(--form-field-shadow);
 }
 .input-grp-error {
   color: var(--danger-alert-text-color);
@@ -48,7 +48,7 @@
 }
 .input-grp-error input:focus {
   border: 2px solid var(--secondary-color);
-  box-shadow: 0 0 0 1px var(--primary-color);
+  box-shadow: var(--form-field-shadow);
 }
 .input-grp-error input::placeholder {
   border: 2px solid var(--danger-alert-text-color);

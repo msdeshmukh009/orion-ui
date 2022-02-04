@@ -31,3 +31,15 @@
     width: 100%;
   }
 }
+.text-alignment-conatainer {
+  width: 100%;
+}
+.text-alignment-conatainer p {
+  width: 100%;
+}
+.text-utility-container {
+  display: flex;
+  row-gap: 1rem;
+  flex-direction: column;
+  margin: 0 auto;
+}

@@ -1,0 +1,110 @@
+@import url(/components/colors.css);
+/*** headings ***/
+.h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.h4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.h5 {
+  font-size: 0.5rem;
+  line-height: 1rem;
+}
+/*******/
+
+/*** text-alignment ***/
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+/*******/
+
+/*** text-sizes ***/
+.text-xl {
+  font-size: 2rem;
+}
+.text-lg {
+  font-size: 1.5rem;
+}
+.text-md {
+  font-size: 1rem;
+}
+.text-sm {
+  font-size: 0.875;
+}
+.text-xs {
+  font-size: 0.7rem;
+}
+/*******/
+
+/*** text-transform ***/
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+/*******/
+
+/*** font-weights ***/
+.text-light {
+  font-weight: 300;
+}
+.text-regular {
+  font-weight: 400;
+}
+.text-semibold {
+  font-weight: 600;
+}
+.text-bold {
+  font-weight: 700;
+}
+.text-black {
+  font-weight: 900;
+}
+/*******/
+/*** extra-styles ***/
+.text-gray {
+  color: gray;
+}
+.text-line-through {
+  text-decoration: line-through;
+}
+.text-highlight {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.text-primary-color {
+  color: var(--primary-color);
+}
+.text-secondary-color {
+  color: var(--secondary-color);
+}
+.text-success {
+  color: var(--btn-success-color);
+}
+.text-warning {
+  color: var(--btn-warning-color);
+}
+.text-danger {
+  color: var(--btn-danger-color);
+}
+/*******/

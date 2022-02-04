@@ -43,3 +43,9 @@
   flex-direction: column;
   margin: 0 auto;
 }
+.stcked-list-conatainer {
+  margin: 0 auto;
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.3rem;
+  padding: 0 1rem;
+}

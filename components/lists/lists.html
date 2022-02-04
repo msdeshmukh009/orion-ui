@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/docsite-css/doc-site.css" />
+    <link rel="stylesheet" href="lists.css" />
+    <link rel="stylesheet" href="/components/avatar/avatar.css" />
+    <title>Lists</title>
+  </head>
+  <body>
+    <div class="doc-container grid-page-layout">
+      <nav class="nav-bar">
+        <h2 class="nav-bar-title">
+          <button id="menu-icon-button" class="burger-menu-button">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a href="/index.html" class="nav-bar-links">Orion</a>
+          <span class="nav-bar-subtitle">v1.0</span>
+        </h2>
+        <ul class="nav-bar-list">
+          <li><a class="nav-bar-links" href="/index.html">Home</a></li>
+          <li>
+            <a class="nav-bar-links" href="/"> <i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="sidebar" class="sidebar">
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-list">
+          <li>
+            <a class="sidebar-links" href="/components/avatar/avatar.html">Avatar</a>
+          </li>
+          <li>
+            <a class="sidebar-links" href="/components/alert/alerts.html">Alerts</a>
+          </li>
+          <li>
+            <a class="sidebar-links" href="/components/badge/badges.html">Badges</a>
+          </li>
+          <li><a class="sidebar-links" href="/components/buttons/buttons.html">Button</a></li>
+          <li><a class="sidebar-links" href="/components/cards/cards.html">Cards</a></li>
+          <li><a class="sidebar-links" href="/components/images/images.html">Images</a></li>
+          <li><a class="sidebar-links" href="/components/inputs/inputs.html">Input</a></li>
+          <li><a class="sidebar-links" href="/components/textUtilities/textUtilities.html">Text Utilities</a></li>
+          <li><a class="sidebar-links active-sidebar-link" href="/components/lists/lists.html">Lists</a></li>
+          <li><a class="sidebar-links" href="/components/navigation/navigation.html">Navigation</a></li>
+          <li><a class="sidebar-links" href="/components/modals/modals.html">Modals</a></li>
+          <li><a class="sidebar-links" href="/components/rating/rating.html">Rating</a></li>
+          <li><a class="sidebar-links" href="/components/toast/toast.html">Snackbar</a></li>
+          <li><a class="sidebar-links" href="/components/simplified-grid/simplified-grid.html">Simplified Grid</a></li>
+        </ul>
+      </div>
+
+      <main id="doc-main-content" class="doc-main-content">
+        <div class="component-description">
+          <h1>Lists</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate illo atque exercitationem, aliquid dolor odit sequi aliquam
+            provident non!
+          </p>
+        </div>
+        <!-- unordered list styles -->
+        <div class="component-variation-description">
+          <h2>Unordered List Styles</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+        <div class="component-display-container">
+          <ul class="styled-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          <ul class="square-bullet-list styled-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          <ul class="circle-bullet-list styled-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          <ul class="no-style-list styled-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522styled-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522square-bullet-list%2520styled-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522circle-bullet-list%2520styled-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522no-style-list%2520styled-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <!-- ----------------------- -->
+
+        <!-- ordered list styles -->
+        <div class="component-variation-description">
+          <h2>Ordered List Styles</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+        <div class="component-display-container">
+          <!-- normal ordered list -->
+          <ol class="styled-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+          <!-- ----------------------- -->
+
+          <!-- reverse ordered list -->
+          <ol class="styled-list" reversed>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+          <!-- ----------------------- -->
+
+          <!-- capital roman letter bullet list -->
+          <ol class="upper-roman-list styled-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+          <!-- ----------------------- -->
+
+          <!-- lowercase roman letter bullet list -->
+          <ol class="lower-roman-list styled-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+          <!-- ----------------------- -->
+
+          <!-- capital alphabate bullet list -->
+          <ol class="upper-alpha-list styled-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+          <!-- ----------------------- -->
+
+          <!-- lowercase alphabate bullet list -->
+          <ol class="lower-alpha-list styled-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+          <!-- ----------------------- -->
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520normal%2520ordered%2520list%2520--%253E%250A%253Col%2520class%253D%2522styled-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--%2520-----------------------%2520--%253E%250A%250A%253C%21--%2520reverse%2520ordered%2520list%2520--%253E%250A%253Col%2520class%253D%2522styled-list%2522%2520reversed%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--%2520-----------------------%2520--%253E%250A%250A%253C%21--%2520capital%2520roman%2520letter%2520bullet%2520list%2520--%253E%250A%253Col%2520class%253D%2522upper-roman-list%2520styled-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--%2520-----------------------%2520--%253E%250A%250A%253C%21--%2520lowercase%2520roman%2520letter%2520bullet%2520list%2520--%253E%250A%253Col%2520class%253D%2522lower-roman-list%2520styled-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--%2520-----------------------%2520--%253E%250A%250A%253C%21--%2520capital%2520alphabate%2520bullet%2520list%2520--%253E%250A%253Col%2520class%253D%2522upper-alpha-list%2520styled-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--%2520-----------------------%2520--%253E%250A%250A%253C%21--%2520lowercase%2520alphabate%2520bullet%2520list%2520--%253E%250A%253Col%2520class%253D%2522lower-alpha-list%2520styled-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253C%21--%2520-----------------------%2520--%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <!-- ----------------------- -->
+
+        <!-- inline list -->
+        <div class="component-variation-description">
+          <h2>Inline List</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+
+        <div class="component-display-container">
+          <ul class="inline-style-list no-style-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522inline-style-list%2520no-style-list%2522%253E%250A%2509%253Cli%253EItem%25201%253C%252Fli%253E%250A%2509%253Cli%253EItem%25202%253C%252Fli%253E%250A%2509%253Cli%253EItem%25203%253C%252Fli%253E%250A%253C%252Ful%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <!-- ----------------------- -->
+
+        <!-- stacked list -->
+        <div class="component-variation-description">
+          <h2>Stacked List</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+
+        <div class="component-display-container">
+          <div class="stcked-list-conatainer">
+            <ul class="no-style-list stacked-list">
+              <li class="stacked-list-item">
+                <div class="avatar avatar-sm-size">
+                  <img class="responsive-img rounded-img" src="https://avatars.dicebear.com/api/avataaars/qwer.svg" alt="avatar" />
+                </div>
+                <p class="message-text">Hey how you doing?</p>
+                <div class="reply-icon"><i class="fas fa-reply"></i></div>
+              </li>
+              <li class="stacked-list-item">
+                <div class="avatar avatar-sm-size">
+                  <img class="responsive-img rounded-img" src="https://avatars.dicebear.com/api/avataaars/qwerasxqergdsacssfghvsd.svg" alt="avatar" />
+                </div>
+                <p class="message-text">Have a nice day!!</p>
+                <div class="reply-icon"><i class="fas fa-reply"></i></div>
+              </li>
+              <li class="stacked-list-item">
+                <div class="avatar avatar-sm-size">
+                  <img class="responsive-img rounded-img" src="https://avatars.dicebear.com/api/avataaars/asaadca.svg" alt="avatar" />
+                </div>
+                <p class="message-text">Nice working with you!!</p>
+                <div class="reply-icon"><i class="fas fa-reply"></i></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522no-style-list%2520stacked-list%2522%253E%250A%2509%253Cli%2520class%253D%2522stacked-list-item%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-sm-size%2522%253E%250A%2509%2509%2509%253Cimg%2520class%253D%2522responsive-img%2520rounded-img%2522%2520%2509%2509%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Favatars.dicebear.com%252Fapi%252Favataaars%252Fqwer.svg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cp%2520class%253D%2522message-text%2522%253EHey%2520how%2520you%2520doing%253F%253C%252Fp%253E%250A%2509%2509%253Cdiv%2520class%253D%2522reply-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-reply%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2509%253C%252Fli%253E%250A%250A%2509%253Cli%2520class%253D%2522stacked-list-item%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-sm-size%2522%253E%250A%2509%2509%2509%253Cimg%2520class%253D%2522responsive-img%2520rounded-img%2522%2520src%253D%2522https%253A%252F%252Favatars.dicebear.com%252Fapi%252Favataaars%252Fqwerasxqergdsacssfghvsd.svg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cp%2520class%253D%2522message-text%2522%253EHave%2520a%2520nice%2520day%21%21%253C%252Fp%253E%250A%2509%2509%253Cdiv%2520class%253D%2522reply-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-reply%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2509%253C%252Fli%253E%250A%250A%2509%253Cli%2520class%253D%2522stacked-list-item%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522avatar%2520avatar-sm-size%2522%253E%250A%2509%2509%2509%253Cimg%2520class%253D%2522responsive-img%2520rounded-img%2522%2520src%253D%2522https%253A%252F%252Favatars.dicebear.com%252Fapi%252Favataaars%252Fasaadca.svg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cp%2520class%253D%2522message-text%2522%253ENice%2520working%2520with%2520you%21%21%253C%252Fp%253E%250A%2509%2509%253Cdiv%2520class%253D%2522reply-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-reply%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2509%253C%252Fli%253E%250A%253C%252Ful%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <!-- ----------------------- -->
+      </main>
+    </div>
+    <script src="/docsite-js/sidebar.js"></script>
+  </body>
+</html>

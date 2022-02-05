@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/docsite-css/doc-site.css" />
+    <link rel="stylesheet" href="toast.css" />
+    <link rel="stylesheet" href="/components/buttons/buttons.css" />
+    <title>Toast</title>
+  </head>
+  <body>
+    <div class="doc-container grid-page-layout">
+      <nav class="nav-bar">
+        <h2 class="nav-bar-title">
+          <button id="menu-icon-button" class="burger-menu-button">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a href="/index.html" class="nav-bar-links">Orion</a>
+          <span class="nav-bar-subtitle">v1.0</span>
+        </h2>
+        <ul class="nav-bar-list">
+          <li><a class="nav-bar-links" href="/index.html">Home</a></li>
+          <li>
+            <a class="nav-bar-links" href="/"> <i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="sidebar" class="sidebar">
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-list">
+          <li>
+            <a class="sidebar-links" href="/components/avatar/avatar.html">Avatar</a>
+          </li>
+          <li>
+            <a class="sidebar-links" href="/components/alert/alerts.html">Alerts</a>
+          </li>
+          <li>
+            <a class="sidebar-links" href="/components/badge/badges.html">Badges</a>
+          </li>
+          <li><a class="sidebar-links" href="/components/buttons/buttons.html">Button</a></li>
+          <li><a class="sidebar-links" href="/components/cards/cards.html">Cards</a></li>
+          <li><a class="sidebar-links" href="/components/images/images.html">Images</a></li>
+          <li><a class="sidebar-links" href="/components/inputs/inputs.html">Input</a></li>
+          <li><a class="sidebar-links" href="/components/textUtilities/textUtilities.html">Text Utilities</a></li>
+          <li><a class="sidebar-links" href="/components/lists/lists.html">Lists</a></li>
+          <li><a class="sidebar-links" href="/components/navigation/navigation.html">Navigation</a></li>
+          <li><a class="sidebar-links" href="/components/modals/modals.html">Modals</a></li>
+          <li><a class="sidebar-links" href="/components/rating/rating.html">Rating</a></li>
+          <li><a class="sidebar-links active-sidebar-link" href="/components/toast/toast.html">Toast</a></li>
+          <li><a class="sidebar-links" href="/components/simplified-grid/simplified-grid.html">Simplified Grid</a></li>
+        </ul>
+      </div>
+
+      <main id="doc-main-content" class="doc-main-content">
+        <div class="component-description">
+          <h1>Toast</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate illo atque exercitationem, aliquid dolor odit sequi aliquam
+            provident non!
+          </p>
+        </div>
+
+        <div class="component-variation-description">
+          <h2>Simple Toast</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+        <div class="component-display-container">
+          <div class="toast toast-success">
+            <span>Order placed!!</span>
+            <div class="toast-cta">
+              <a class="toast-link" href="#">Details</a>
+              <button class="toast-btn"><i class="fas fa-times"></i></button>
+            </div>
+          </div>
+
+          <div class="toast toast-error">
+            <span>Can't send photo. Retry in 5 seconds.</span>
+            <div class="toast-cta">
+              <a class="toast-link" href="#">RETRY</a>
+              <button class="toast-btn"><i class="fas fa-times"></i></button>
+            </div>
+          </div>
+          <div class="toast toast-general">
+            <span>Processing...</span>
+            <div class="toast-cta">
+              <button class="toast-btn"><i class="fas fa-times"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav%2522%253E%250A%2509%253Cheader%2520class%253D%2522nav-header%2522%253E%250A%2509%2509%253Ch2%253EOrion%2520Store%253C%252Fh2%253E%250A%2509%253C%252Fheader%253E%250A%250A%2509%253Cdiv%2520class%253D%2522nav-search-bar%2522%253E%250A%2509%2509%253Cbutton%2520class%253D%2522btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522search%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cul%2520class%253D%2522inline-style-list%2520no-style-list%2520nav-list%2522%253E%250A%2509%2509%253Cli%253E%250A%2509%2509%2509%253Ca%2520class%253D%2522anchor-tag-badge-container%2522%2520href%253D%2522%2523%2522%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522badge-container%2522%253E%250A%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%253Cspan%2520class%253D%2522status-badge%2520number-badge%2522%253E3%253C%252Fspan%253E%250A%2509%2509%2509%253C%252Fspan%253E%250A%2509%2509%2509%253C%252Fa%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%250A%2520%2520%2520%2520%2520%2520%2509%253Cli%253E%250A%2509%2509%2509%253Ca%2520class%253D%2522anchor-tag-badge-container%2522%2520href%253D%2522%2523%2522%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522badge-container%2522%253E%250A%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%253Cspan%2520class%253D%2522status-badge%2520number-badge%2522%253E3%253C%252Fspan%253E%250A%2509%2509%2509%253C%252Fspan%253E%250A%2509%2509%2509%253C%252Fa%253E%250A%2509%2509%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%250A%2509%2509%253Cli%253E%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ELogin%253C%252Fbutton%253E%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%253C%252Fnav%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+
+        <div class="component-variation-description">
+          <h2>Live demo for Toasts</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+
+        <div class="component-display-container">
+          <button class="btn btn-primary toast-demo-btn">top right</button>
+          <button class="btn btn-primary toast-demo-btn">bottom center</button>
+          <button class="btn btn-primary toast-demo-btn">bottom left</button>
+
+          <div class="toast toast-success toast-top-right">
+            <span>Order placed!!</span>
+            <div class="toast-cta">
+              <a class="toast-link" href="#">Details</a>
+              <button class="toast-btn toast-close-btn"><i class="fas fa-times"></i></button>
+            </div>
+          </div>
+
+          <div class="toast toast-error toast-bottom-center">
+            <span>Can't send photo. Retry in 5 seconds.</span>
+            <div class="toast-cta">
+              <a class="toast-link" href="#">RETRY</a>
+              <button class="toast-btn toast-close-btn"><i class="fas fa-times"></i></button>
+            </div>
+          </div>
+          <div class="toast toast-general toast-bottom-left">
+            <span>Processing...</span>
+            <div class="toast-cta">
+              <button class="toast-btn toast-close-btn"><i class="fas fa-times"></i></button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="/docsite-js/sidebar.js"></script>
+    <script src="toast.js"></script>
+  </body>
+</html>

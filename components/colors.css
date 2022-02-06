@@ -38,4 +38,6 @@
   --form-field-shadow: 0 0 0 1px var(--primary-color);
 
   --modal-background-color: rgba(0, 0, 0, 0.4);
+
+  --toast-link-color: #953eff;
 }

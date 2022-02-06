@@ -40,4 +40,7 @@
   --modal-background-color: rgba(0, 0, 0, 0.4);
 
   --toast-link-color: #953eff;
+
+  --rating-star-color: #ffc43b;
+  --rating-star-hover-color: #f5e0af;
 }

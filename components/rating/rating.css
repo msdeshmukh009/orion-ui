@@ -1,0 +1,21 @@
+.rating-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+.rating-field-container {
+  border: none;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+.rating-star-input:enabled + .rating-star-icon:hover {
+  color: var(--rating-star-hover-color);
+  cursor: pointer;
+}
+.rating-star-input {
+  display: none;
+}
+.rating-star-input:checked + .rating-star-icon {
+  color: var(--rating-star-color);
+}

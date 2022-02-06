@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/docsite-css/doc-site.css" />
+    <link rel="stylesheet" href="rating.css" />
+    <link rel="stylesheet" href="/components/buttons/buttons.css" />
+    <title>Rating</title>
+  </head>
+  <body>
+    <div class="doc-container grid-page-layout">
+      <nav class="nav-bar">
+        <h2 class="nav-bar-title">
+          <button id="menu-icon-button" class="burger-menu-button">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a href="/index.html" class="nav-bar-links">Orion</a>
+          <span class="nav-bar-subtitle">v1.0</span>
+        </h2>
+        <ul class="nav-bar-list">
+          <li><a class="nav-bar-links" href="/index.html">Home</a></li>
+          <li>
+            <a class="nav-bar-links" href="/"> <i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="sidebar" class="sidebar">
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-list">
+          <li>
+            <a class="sidebar-links" href="/components/avatar/avatar.html">Avatar</a>
+          </li>
+          <li>
+            <a class="sidebar-links" href="/components/alert/alerts.html">Alerts</a>
+          </li>
+          <li>
+            <a class="sidebar-links" href="/components/badge/badges.html">Badges</a>
+          </li>
+          <li><a class="sidebar-links" href="/components/buttons/buttons.html">Button</a></li>
+          <li><a class="sidebar-links" href="/components/cards/cards.html">Cards</a></li>
+          <li><a class="sidebar-links" href="/components/images/images.html">Images</a></li>
+          <li><a class="sidebar-links" href="/components/inputs/inputs.html">Input</a></li>
+          <li><a class="sidebar-links" href="/components/textUtilities/textUtilities.html">Text Utilities</a></li>
+          <li><a class="sidebar-links" href="/components/lists/lists.html">Lists</a></li>
+          <li><a class="sidebar-links" href="/components/navigation/navigation.html">Navigation</a></li>
+          <li><a class="sidebar-links" href="/components/modals/modals.html">Modals</a></li>
+          <li><a class="sidebar-links active-sidebar-link" href="/components/rating/rating.html">Rating</a></li>
+          <li><a class="sidebar-links" href="/components/toast/toast.html">Toast</a></li>
+          <li><a class="sidebar-links" href="/components/simplified-grid/simplified-grid.html">Simplified Grid</a></li>
+        </ul>
+      </div>
+
+      <main id="doc-main-content" class="doc-main-content">
+        <div class="component-description">
+          <h1>Rating</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate illo atque exercitationem, aliquid dolor odit sequi aliquam
+            provident non!
+          </p>
+        </div>
+        <!-- read only rating -->
+        <div class="component-variation-description">
+          <h2>Read only star rating</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+
+        <div class="component-display-container">
+          <div class="rating-field-container">
+            <label>
+              <input class="rating-star-input" type="checkbox" checked disabled />
+              <i class="fas fa-star rating-star-icon"></i>
+            </label>
+            <label>
+              <input class="rating-star-input" type="checkbox" checked disabled />
+              <i class="fas fa-star rating-star-icon"></i>
+            </label>
+            <label>
+              <input class="rating-star-input" type="checkbox" checked disabled />
+              <i class="fas fa-star rating-star-icon"></i>
+            </label>
+            <label>
+              <input class="rating-star-input" type="checkbox" disabled />
+              <i class="fas fa-star rating-star-icon"></i>
+            </label>
+            <label>
+              <input class="rating-star-input" type="checkbox" disabled />
+              <i class="fas fa-star rating-star-icon"></i>
+            </label>
+          </div>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-field-container%2522%253E%250A%2509%253Clabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520checked%2520disabled%2520%252F%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2509%253C%252Flabel%253E%250A%250A%2509%253Clabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520checked%2520disabled%2520%252F%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2509%253C%252Flabel%253E%250A%250A%2509%253Clabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520checked%2520disabled%2520%252F%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2509%253C%252Flabel%253E%250A%250A%2509%253Clabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520disabled%2520%252F%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2509%253C%252Flabel%253E%250A%250A%2509%253Clabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520disabled%2520%252F%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2509%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <!-- --------------------- -->
+
+        <!-- live demo for rating -->
+        <div class="component-variation-description">
+          <h2>Live demo</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+
+        <div class="component-display-container">
+          <form class="rating-form">
+            <h3 class="form-heading">Rating</h3>
+
+            <fieldset class="rating-field-container">
+              <label>
+                <input class="rating-star-input" type="checkbox" />
+                <i class="fas fa-star rating-star-icon"></i>
+              </label>
+              <label>
+                <input class="rating-star-input" type="checkbox" />
+                <i class="fas fa-star rating-star-icon"></i>
+              </label>
+              <label>
+                <input class="rating-star-input" type="checkbox" />
+                <i class="fas fa-star rating-star-icon"></i>
+              </label>
+              <label>
+                <input class="rating-star-input" type="checkbox" />
+                <i class="fas fa-star rating-star-icon"></i>
+              </label>
+              <label>
+                <input class="rating-star-input" type="checkbox" />
+                <i class="fas fa-star rating-star-icon"></i>
+              </label>
+            </fieldset>
+            <button class="btn btn-primary">Submit</button>
+            <div class="rating-number-div"></div>
+          </form>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522rating-form%2522%253E%250A%2509%253Ch3%2520class%253D%2522form-heading%2522%253ERating%253C%252Fh3%253E%250A%250A%2509%253Cfieldset%2520class%253D%2522rating-field-container%2522%253E%250A%2509%2509%253Clabel%253E%250A%2509%2509%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2509%2509%253C%252Flabel%253E%250A%2509%2509%253Clabel%253E%250A%2509%2509%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2509%2509%253C%252Flabel%253E%250A%2509%2509%253Clabel%253E%250A%2509%2509%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2509%2509%253C%252Flabel%253E%250A%2509%2509%253Clabel%253E%250A%2509%2509%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2509%2509%253C%252Flabel%253E%250A%2509%2509%253Clabel%253E%250A%2509%2509%2509%253Cinput%2520class%253D%2522rating-star-input%2522%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star-icon%2522%253E%253C%252Fi%253E%250A%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Ffieldset%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESubmit%253C%252Fbutton%253E%250A%2509%253Cdiv%2520class%253D%2522rating-number-div%2522%253E%253C%252Fdiv%253E%250A%253C%252Fform%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <!-- --------------------- -->
+
+        <!-- javascript code snippet -->
+        <div class="component-variation-description">
+          <h2>Javascript</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520ratingForm%2520%253D%2520document.querySelector%28%2522.rating-form%2522%29%253B%250Aconst%2520ratingStarInputs%2520%253D%2520document.querySelectorAll%28%2522.rating-form%2520.rating-star-input%2522%29%253B%250Aconst%2520ratingExampleShowRating%2520%253D%2520document.querySelector%28%2522.rating-number-div%2522%29%253B%250A%250AratingStarInputs.forEach%28%28starInput%252C%2520starId%29%2520%253D%253E%2520%257B%250A%2520%2520starInput.addEventListener%28%2522change%2522%252C%2520%28%29%2520%253D%253E%2520checkAllPreviousStars%28starId%29%29%253B%250A%257D%29%253B%250A%250Aconst%2520checkAllPreviousStars%2520%253D%2520id%2520%253D%253E%2520%257B%250A%2520%2520if%2520%28ratingStarInputs%255Bid%255D.checked%29%2520%257B%250A%2520%2520%2520%2520for%2520%28let%2520i%2520%253D%2520id%253B%2520i%2520%253E%253D%25200%253B%2520i--%29%2520%257B%250A%2520%2520%2520%2520%2520%2520ratingStarInputs%255Bi%255D.checked%2520%253D%2520true%253B%250A%2520%2520%2520%2520%257D%250A%2520%2520%257D%2520else%2520%257B%250A%2520%2520%2520%2520for%2520%28let%2520i%2520%253D%2520id%2520%252B%25201%253B%2520i%2520%253C%2520ratingStarInputs.length%253B%2520i%252B%252B%29%2520%257B%250A%2520%2520%2520%2520%2520%2520ratingStarInputs%255Bi%255D.checked%2520%253D%2520false%253B%250A%2520%2520%2520%2520%257D%250A%2520%2520%257D%250A%257D%253B%250A%250AratingForm.addEventListener%28%2522submit%2522%252C%2520e%2520%253D%253E%2520%257B%250A%2520%2520e.preventDefault%28%29%253B%250A%2520%2520let%2520sum%2520%253D%25200%253B%250A%2520%2520ratingStarInputs.forEach%28star%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520if%2520%28star.checked%29%2520sum%2520%252B%253D%25201%253B%250A%2520%2520%257D%29%253B%250A%2520%2520ratingExampleShowRating.innerText%2520%253D%2520%2560You%2520have%2520submitted%2520%2524%257Bsum%257D%252F5%2520rating%2560%253B%250A%257D%29%253B%250A"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <!-- --------------------- -->
+      </main>
+    </div>
+    <script src="/docsite-js/sidebar.js"></script>
+    <script src="rating.js"></script>
+  </body>
+</html>

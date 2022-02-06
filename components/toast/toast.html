@@ -95,14 +95,6 @@
           </div>
         </div>
 
-        <code class="code-display-container">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav%2522%253E%250A%2509%253Cheader%2520class%253D%2522nav-header%2522%253E%250A%2509%2509%253Ch2%253EOrion%2520Store%253C%252Fh2%253E%250A%2509%253C%252Fheader%253E%250A%250A%2509%253Cdiv%2520class%253D%2522nav-search-bar%2522%253E%250A%2509%2509%253Cbutton%2520class%253D%2522btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522search%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cul%2520class%253D%2522inline-style-list%2520no-style-list%2520nav-list%2522%253E%250A%2509%2509%253Cli%253E%250A%2509%2509%2509%253Ca%2520class%253D%2522anchor-tag-badge-container%2522%2520href%253D%2522%2523%2522%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522badge-container%2522%253E%250A%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%253Cspan%2520class%253D%2522status-badge%2520number-badge%2522%253E3%253C%252Fspan%253E%250A%2509%2509%2509%253C%252Fspan%253E%250A%2509%2509%2509%253C%252Fa%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%250A%2520%2520%2520%2520%2520%2520%2509%253Cli%253E%250A%2509%2509%2509%253Ca%2520class%253D%2522anchor-tag-badge-container%2522%2520href%253D%2522%2523%2522%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522badge-container%2522%253E%250A%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%253Cspan%2520class%253D%2522status-badge%2520number-badge%2522%253E3%253C%252Fspan%253E%250A%2509%2509%2509%253C%252Fspan%253E%250A%2509%2509%2509%253C%252Fa%253E%250A%2509%2509%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%250A%2509%2509%253Cli%253E%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ELogin%253C%252Fbutton%253E%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%253C%252Fnav%253E"
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </code>
-
         <div class="component-variation-description">
           <h2>Live demo for Toasts</h2>
           <p>
@@ -114,7 +106,7 @@
           <button class="btn btn-primary toast-demo-btn">top right</button>
           <button class="btn btn-primary toast-demo-btn">bottom center</button>
           <button class="btn btn-primary toast-demo-btn">bottom left</button>
-
+          <!-- success toast on top right -->
           <div class="toast toast-success toast-top-right">
             <span>Order placed!!</span>
             <div class="toast-cta">
@@ -122,7 +114,9 @@
               <button class="toast-btn toast-close-btn"><i class="fas fa-times"></i></button>
             </div>
           </div>
+          <!-- ---------------------------- -->
 
+          <!-- error toast on bottom center -->
           <div class="toast toast-error toast-bottom-center">
             <span>Can't send photo. Retry in 5 seconds.</span>
             <div class="toast-cta">
@@ -130,13 +124,37 @@
               <button class="toast-btn toast-close-btn"><i class="fas fa-times"></i></button>
             </div>
           </div>
+          <!-- ---------------------------- -->
+
+          <!-- general toaast on bottom left -->
           <div class="toast toast-general toast-bottom-left">
             <span>Processing...</span>
             <div class="toast-cta">
               <button class="toast-btn toast-close-btn"><i class="fas fa-times"></i></button>
             </div>
           </div>
+          <!-- ---------------------------- -->
         </div>
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520success%2520toast%2520on%2520top%2520right%2520--%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-success%2520toast-top-right%2522%253E%250A%2509%253Cspan%253EOrder%2520placed%21%21%253C%252Fspan%253E%250A%2509%253Cdiv%2520class%253D%2522toast-cta%2522%253E%250A%2509%2509%253Ca%2520class%253D%2522toast-link%2522%2520href%253D%2522%2523%2522%253EDetails%253C%252Fa%253E%250A%2509%2509%253Cbutton%2520class%253D%2522toast-btn%2520toast-close-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520----------------------------%2520--%253E%250A%253C%21--%2520error%2520toast%2520on%2520bottom%2520center%2520--%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-error%2520toast-bottom-center%2522%253E%250A%2509%253Cspan%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fspan%253E%250A%2509%253Cdiv%2520class%253D%2522toast-cta%2522%253E%250A%2509%2509%253Ca%2520class%253D%2522toast-link%2522%2520href%253D%2522%2523%2522%253ERETRY%253C%252Fa%253E%250A%2509%2509%253Cbutton%2520class%253D%2522toast-btn%2520toast-close-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520----------------------------%2520--%253E%250A%253C%21--%2520general%2520toaast%2520on%2520bottom%2520left%2520--%253E%250A%253Cdiv%2520class%253D%2522toast%2520toast-general%2520toast-bottom-left%2522%253E%250A%2509%253Cspan%253EProcessing...%253C%252Fspan%253E%250A%2509%253Cdiv%2520class%253D%2522toast-cta%2522%253E%250A%2509%2509%253Cbutton%2520class%253D%2522toast-btn%2520toast-close-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520----------------------------%2520--%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <div class="component-variation-description">
+          <h2>Javascript</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
+          </p>
+        </div>
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520toasts%2520%253D%2520document.querySelectorAll%28%2522.toast%2522%29%253B%250Aconst%2520%255BsampleToast1%252C%2520sampleToast2%252C%2520sampleToast3%252C%2520topRightToast%252C%2520bottomCenterToast%252C%2520bottomLeftToast%255D%2520%253D%2520toasts%253B%250A%250Aconst%2520toastDemoBtns%2520%253D%2520document.querySelectorAll%28%2522.toast-demo-btn%2522%29%253B%250Aconst%2520%255BtopRightDemoBtn%252C%2520bottomCenterDemoBtn%252C%2520bottomLeftDemoBtn%255D%2520%253D%2520toastDemoBtns%253B%250A%250Aconst%2520tostCloseBtns%2520%253D%2520document.querySelectorAll%28%2522.toast-close-btn%2522%29%253B%250Aconst%2520%255BtopRightCloseBtn%252C%2520bottomCenterCloseBtn%252C%2520bottomLeftCloseBtn%255D%2520%253D%2520tostCloseBtns%253B%250A%250AtopRightDemoBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520topRightToast.style.display%2520%253D%2520%2522flex%2522%253B%250A%2520%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520topRightToast.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%257D%252C%25203000%29%253B%250A%257D%29%253B%250AbottomCenterDemoBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520bottomCenterToast.style.display%2520%253D%2520%2522flex%2522%253B%250A%2520%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520bottomCenterToast.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%257D%252C%25203000%29%253B%250A%257D%29%253B%250AbottomLeftDemoBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520bottomLeftToast.style.display%2520%253D%2520%2522flex%2522%253B%250A%2520%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520bottomLeftToast.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%257D%252C%25203000%29%253B%250A%257D%29%253B%250A%250AtopRightCloseBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520topRightToast.style.display%2520%253D%2520%2522none%2522%253B%250A%257D%29%253B%250AbottomCenterCloseBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520bottomCenterToast.style.display%2520%253D%2520%2522none%2522%253B%250A%257D%29%253B%250AbottomLeftCloseBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520bottomLeftToast.style.display%2520%253D%2520%2522none%2522%253B%250A%257D%29%253B%250A"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
       </main>
     </div>
     <script src="/docsite-js/sidebar.js"></script>

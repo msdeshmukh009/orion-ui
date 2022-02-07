@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/components/simplified-grid/simplified-grid.css" />
+    <link rel="stylesheet" href="/docsite-css/code-display-container.css" />
+    <link rel="stylesheet" href="/components/buttons/buttons.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Orion Ui</title>
   </head>
@@ -16,9 +19,7 @@
         </a>
         <ul class="nav-bar-list">
           <li>
-            <a class="nav-bar-links" href="/components/avatar/avatar.html"
-              >Docs</a
-            >
+            <a class="nav-bar-links" href="/components/avatar/avatar.html">Docs</a>
           </li>
           <li>
             <a class="nav-bar-links" href="/"> <i class="fab fa-github"></i></a>
@@ -29,13 +30,36 @@
         <h1 class="main-title">Build brightest and cleanest UI with Orion.</h1>
 
         <p class="main-description">
-          Orion is a CSS library, equipped with pre-defined styled classes, and
-          Utilities, to get you quickly started with your project.
+          Orion is a CSS library, equipped with pre-defined styled classes, and Utilities, to get you quickly started with your project.
         </p>
         <section class="main-cta-section">
-          <button class="main-cta-button">Get started</button>
+          <a class="btn btn-primary" href="#installation-container">Installation</a>
+          <a class="btn btn-outline-primary" href="/components/avatar/avatar.html">Documentation</a>
         </section>
       </main>
+    </div>
+    <div class="container">
+      <div id="installation-container" class="installation-container grid-30-70">
+        <div class="installation-instruction">
+          <h1>Installation</h1>
+          <p>
+            Copy and paste the code in the head tag of your html document. So that you can style your components by just adding class names to your
+            html elements.
+          </p>
+          <p>Read documentation to know about all components and their variation.</p>
+          <a class="btn btn-primary" href="/components/avatar/avatar.html">Documentation</a>
+        </div>
+        <div>
+          <code class="code-display-container">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=36px&ph=23px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=138%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522%252Fcomponents%252Fsimplified-grid%252Fcomponents.css%2522%2520%252F%253E%250A"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          
+            </iframe>
+          </code>
+        </div>
+      </div>
     </div>
   </body>
 </html>

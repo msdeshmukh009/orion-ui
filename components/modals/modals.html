@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/docsite-css/doc-site.css" />
-    <link rel="stylesheet" href="/components/buttons/buttons.css" />
-    <link rel="stylesheet" href="modals.css" />
-    <link rel="stylesheet" href="/components/lists/lists.css" />
+    <link rel="stylesheet" href="/components/orion-ui.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <div class="doc-container grid-page-layout">
@@ -21,9 +22,11 @@
           <span class="nav-bar-subtitle">v1.0</span>
         </h2>
         <ul class="nav-bar-list">
-          <li><a class="nav-bar-links" href="/index.html">Home</a></li>
           <li>
-            <a class="nav-bar-links" href="/"> <i class="fab fa-github"></i></a>
+            <a class="nav-bar-links" href="/index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-bar-links" href="https://github.com/msdeshmukh009/orion-ui" target="_blank"> <i class="fab fa-github"></i></a>
           </li>
         </ul>
       </nav>
@@ -33,15 +36,9 @@
           <i class="fas fa-times"></i>
         </button>
         <ul class="sidebar-list">
-          <li>
-            <a class="sidebar-links" href="/components/avatar/avatar.html">Avatar</a>
-          </li>
-          <li>
-            <a class="sidebar-links" href="/components/alert/alerts.html">Alerts</a>
-          </li>
-          <li>
-            <a class="sidebar-links" href="/components/badge/badges.html">Badges</a>
-          </li>
+          <li><a class="sidebar-links" href="/components/avatar/avatar.html">Avatar</a></li>
+          <li><a class="sidebar-links" href="/components/alert/alerts.html">Alerts</a></li>
+          <li><a class="sidebar-links" href="/components/badge/badges.html">Badges</a></li>
           <li><a class="sidebar-links" href="/components/buttons/buttons.html">Button</a></li>
           <li><a class="sidebar-links" href="/components/cards/cards.html">Cards</a></li>
           <li><a class="sidebar-links" href="/components/images/images.html">Images</a></li>
@@ -64,7 +61,7 @@
             provident non!
           </p>
         </div>
-        <!-- simple modal -->
+        <!-- simple-modal -->
         <div class="component-variation-description">
           <h2>Simple Modal</h2>
           <p>
@@ -86,7 +83,7 @@
         </div>
         <!-- ----------------------- -->
 
-        <!-- simple modal live demo -->
+        <!-- simple-modal-live-demo -->
         <div class="component-variation-description">
           <h2>Live demo for Simple Modal</h2>
           <p>
@@ -119,7 +116,7 @@
         </code>
         <!-- ----------------------- -->
 
-        <!-- dialog modals -->
+        <!-- dialog-modals -->
         <div class="component-variation-description">
           <h2>Dialog Modals</h2>
           <p>
@@ -203,7 +200,7 @@
           <button class="btn btn-primary" id="simple-dialog-live-demo-btn">Simple Dialog</button>
           <button class="btn btn-primary" id="confirmation-dialog-live-demo-btn">Confirmation Dialog</button>
           <button class="btn btn-primary" id="alert-dialog-live-demo-btn">Alert Dialog</button>
-          <!-- simple dialog box -->
+          <!-- simple-dialog-box -->
           <div class="modal-background">
             <div class="dialog-box">
               <button class="modal-close-btn modal-action-btn"><i class="fas fa-times"></i></button>
@@ -219,7 +216,7 @@
           </div>
           <!-- ----------------------- -->
 
-          <!-- confirmation dialog box -->
+          <!-- confirmation-dialog-box -->
           <div class="modal-background">
             <div class="dialog-box">
               <button class="modal-close-btn modal-action-btn"><i class="fas fa-times"></i></button>
@@ -260,7 +257,7 @@
           </div>
           <!-- ----------------------- -->
 
-          <!-- alert dialog box -->
+          <!-- alert-dialog-box -->
           <div class="modal-background">
             <div class="dialog-box">
               <button class="modal-close-btn modal-action-btn"><i class="fas fa-times"></i></button>
@@ -315,6 +312,10 @@
         <!-- ----------------------- -->
       </main>
     </div>
+
+    <a href="" class="btn-floating btn-primary floating-up-arrow-btn" role="button">
+      <i class="fas fa-arrow-up"></i>
+    </a>
     <script src="/docsite-js/sidebar.js"></script>
     <script src="modals.js"></script>
   </body>

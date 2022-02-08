@@ -1,35 +1,38 @@
-@import url(/components/colors.css);
 @font-face {
   font-family: "ultraregular";
-  src: url("/fonts/ultra.woff") format("woff2"),
-    url("/fonts/ultra.woff") format("woff");
+  src: url("/fonts/ultra.woff") format("woff2"), url("/fonts/ultra.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 .nav-bar {
   grid-area: nav;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   width: 100%;
-  padding: 1rem 0;
+  padding: 1rem;
   max-width: 2000px;
+  box-shadow: var(--nav-bar-shadow);
+  margin-bottom: 0;
 }
 .nav-bar-links {
   text-decoration: none;
   color: var(--primary-color);
   display: flex;
   align-items: baseline;
+  border: 2px solid transparent;
 }
 .nav-bar-links:hover {
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .nav-bar-title {
   font-family: "ultraregular", sans-serif;
   font-size: 1.5rem;
-  display: inline-block;
+  display: flex;
+  align-items: baseline;
 }
 .nav-bar-subtitle {
+  font-family: "Nunito", sans-serif;
   color: var(--lighter-primary-color);
   border-radius: 0.3rem;
   font-weight: 500;
@@ -50,7 +53,7 @@
 }
 @media only screen and (min-width: 550px) {
   .nav-bar {
-    padding: 2rem 1rem;
+    padding: 0.8rem 1rem;
   }
   .nav-bar-title {
     font-size: 2rem;

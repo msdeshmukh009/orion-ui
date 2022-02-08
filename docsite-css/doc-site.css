@@ -25,27 +25,13 @@
   width: 100%;
   padding: 1rem;
 }
-.doc-container .nav-bar {
-  border-bottom: 2px solid var(--primary-color);
-  margin-bottom: 0;
-  display: flex;
-  padding: 0.5rem;
-  align-items: baseline; /*! make it baseline in navbar*/
-}
-.doc-container .nav-bar-title {
-  display: flex;
-  align-items: baseline;
-}
-.doc-container .nav-bar-subtitle {
-  font-family: "Nunito", sans-serif;
-}
 /*******/
 
 /*** media-quires ***/
 @media only screen and (max-width: 800px) {
-  .doc-container {
-    width: 90%;
-  }
+  /* .doc-container {
+    width: 100%;
+  } */
   .grid-page-layout {
     grid-template-columns: 1fr;
     grid-template-areas:

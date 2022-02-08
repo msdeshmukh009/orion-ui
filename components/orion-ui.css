@@ -1,0 +1,101 @@
+/*** components-css ***/
+@import url(/components/alert/alert.css);
+@import url(/components/avatar/avatar.css);
+@import url(/components/badge/badges.css);
+@import url(/components/buttons/buttons.css);
+@import url(/components/cards/cards.css);
+@import url(/components/Images/images.css);
+@import url(/components/Inputs/inputs.css);
+@import url(/components/lists/lists.css);
+@import url(/components/modals/modals.css);
+@import url(/components/navigation/navigation.css);
+@import url(/components/rating/rating.css);
+@import url(/components/simplified-grid/simplified-grid.css);
+@import url(/components/textUtilities/textUtilities.css);
+@import url(/components/toast/toast.css);
+/*******/
+
+/*** root ***/
+:root {
+  --primary-color: #30a1ec;
+  --medium-dark-primary-color: #78c6fa;
+  --lighter-primary-color: #94d4ff;
+
+  --secondary-color: #e5ecee;
+  --light-secondary-color: #f0f7f8;
+
+  --background-color: #fdfeff;
+  --text-color: rgb(47, 48, 49);
+
+  --badge-online-color: rgb(63, 197, 63);
+  --badge-offline-color: rgb(165, 164, 164);
+  --badge-dnd-color: rgb(233, 76, 76);
+
+  --btn-success-color: rgb(56, 194, 56);
+  --btn-warning-color: rgb(248, 176, 68);
+  --btn-dark-color: #131212;
+  --btn-danger-color: rgb(235, 45, 73);
+
+  --primary-alert-bg-color: rgb(174, 237, 253);
+  --primary-alert-text-color: rgb(35, 113, 133);
+  --secondary-alert-bg-color: rgb(235, 225, 225);
+  --secondary-alert-text-color: rgb(122, 121, 121);
+  --success-alert-bg-color: rgb(139, 250, 139);
+  --success-alert-text-color: rgb(40, 122, 40);
+  --danger-alert-bg-color: rgb(255, 159, 173);
+  --danger-alert-text-color: rgb(211, 38, 64);
+  --warning-alert-bg-color: rgb(255, 206, 132);
+  --warning-alert-text-color: rgb(204, 137, 36);
+
+  --card-overlay-color: rgb(234, 234, 236, 0.6);
+  --card-overlay-text-color: #eaeaec;
+
+  --modal-background-color: rgba(0, 0, 0, 0.4);
+
+  --toast-link-color: #953eff;
+
+  --rating-star-color: #ffc43b;
+  --rating-star-hover-color: #f5e0af;
+
+  --sidebar-bg-color: hsl(0 0% 100% / 0.1);
+  --sidebar-fallback-bg-color: hsl(0 0% 100% / 0.85);
+
+  --card-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  --card-hover-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+  --form-field-shadow: 0 0 0 1px var(--primary-color);
+
+  --nav-bar-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+  --sidebar-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+}
+/*******/
+
+/*** reset-css ***/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+html {
+  scroll-behavior: smooth;
+}
+/*******/

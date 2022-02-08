@@ -4,10 +4,10 @@
 .sidebar {
   grid-area: sidebar;
   position: sticky;
-  top: 1rem;
+  top: 0;
   height: 100vh;
   padding: 1rem;
-  border-right: 2px solid var(--primary-color);
+  box-shadow: var(--sidebar-shadow);
   z-index: 1;
   overflow: scroll;
 }
@@ -59,15 +59,15 @@
     width: 80%;
     left: -100rem;
     justify-content: center;
-    background-color: hsl(0 0% 100% / 0.85);
+    background-color: var(--sidebar-fallback-bg-color);
     position: fixed;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: var(--card-hover-shadow);
     transition: all 0.5s ease-in-out;
     border: none;
   }
   @supports (backdrop-filter: blur(8px)) {
     .sidebar {
-      background-color: hsl(0 0% 100% / 0.1);
+      background-color: var(--sidebar-bg-color);
       backdrop-filter: blur(8px);
     }
   }
@@ -81,7 +81,7 @@
 
   .close-btn {
     display: block;
-    background-color: hsl(0 0% 100% / 0.1);
+    background-color: transparent;
     color: var(--primary-color);
     border: none;
     font-size: 1.5rem;

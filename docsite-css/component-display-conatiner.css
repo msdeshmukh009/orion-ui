@@ -1,4 +1,3 @@
-@import url(/components/colors.css);
 .component-display-container {
   display: flex;
   flex-wrap: wrap;
@@ -31,10 +30,10 @@
     width: 100%;
   }
 }
-.text-alignment-conatainer {
+.text-alignment-container {
   width: 100%;
 }
-.text-alignment-conatainer p {
+.text-alignment-container p {
   width: 100%;
 }
 .text-utility-container {
@@ -43,7 +42,7 @@
   flex-direction: column;
   margin: 0 auto;
 }
-.stcked-list-conatainer {
+.stacked-list-container {
   margin: 0 auto;
   border: 2px solid var(--secondary-color);
   border-radius: 0.3rem;

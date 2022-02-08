@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/docsite-css/doc-site.css" />
-    <link rel="stylesheet" href="buttons.css" />
+    <link rel="stylesheet" href="/components/orion-ui.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
     <title>Buttons</title>
   </head>
   <body>
@@ -22,7 +25,7 @@
         <ul class="nav-bar-list">
           <li><a class="nav-bar-links" href="/index.html">Home</a></li>
           <li>
-            <a class="nav-bar-links" href="/"> <i class="fab fa-github"></i></a>
+            <a class="nav-bar-links" href="https://github.com/msdeshmukh009/orion-ui" target="_blank"> <i class="fab fa-github"></i></a>
           </li>
         </ul>
       </nav>
@@ -32,15 +35,9 @@
           <i class="fas fa-times"></i>
         </button>
         <ul class="sidebar-list">
-          <li>
-            <a class="sidebar-links" href="/components/avatar/avatar.html">Avatar</a>
-          </li>
-          <li>
-            <a class="sidebar-links" href="/components/alert/alerts.html">Alerts</a>
-          </li>
-          <li>
-            <a class="sidebar-links" href="/components/badge/badges.html">Badges</a>
-          </li>
+          <li><a class="sidebar-links" href="/components/avatar/avatar.html">Avatar</a></li>
+          <li><a class="sidebar-links" href="/components/alert/alerts.html">Alerts</a></li>
+          <li><a class="sidebar-links" href="/components/badge/badges.html">Badges</a></li>
           <li><a class="sidebar-links active-sidebar-link" href="/components/buttons/buttons.html">Button</a></li>
           <li><a class="sidebar-links" href="/components/cards/cards.html">Cards</a></li>
           <li><a class="sidebar-links" href="/components/images/images.html">Images</a></li>
@@ -63,7 +60,7 @@
             provident non!
           </p>
         </div>
-        <!-- solid button -->
+        <!-- solid-button -->
         <div class="component-variation-description">
           <h2>Solid Buttons</h2>
           <p>
@@ -89,7 +86,7 @@
 
         <!-- --------------------- -->
 
-        <!-- outline button -->
+        <!-- outline-button -->
         <div class="component-variation-description">
           <h2>Outline Buttons</h2>
           <p>
@@ -115,7 +112,7 @@
         </code>
         <!-- --------------------- -->
 
-        <!-- link button -->
+        <!-- link-button -->
         <div class="component-variation-description">
           <h2>Link Button</h2>
           <p>
@@ -124,21 +121,19 @@
         </div>
 
         <div class="component-display-container">
-          <button class="link-btn">
-            <a href="#">Link Text</a>
-          </button>
+          <a class="link-btn" href="#">Link Text</a>
         </div>
 
         <code class="code-display-container">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522link-btn%2522%253E%250A%2509%253Ca%2520href%253D%2522%2523%2522%253ELink%2520Text%253C%252Fa%253E%250A%253C%252Fbutton%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520class%253D%2522link-btn%2522%2520href%253D%2522%2523%2522%253ELink%2520Text%253C%252Fa%253E%250A"
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>
         </code>
         <!-- --------------------- -->
 
-        <!-- Icon buttons -->
+        <!-- Icon-buttons -->
         <div class="component-variation-description">
           <h2>Icon Buttons</h2>
           <p>
@@ -147,30 +142,30 @@
         </div>
 
         <div class="component-display-container">
-          <button class="btn btn-icon btn-primary">
-            <i class="fas fa-shopping-cart"></i>
+          <a class="btn btn-primary">
+            <span class="btn-icon"> <i class="fas fa-shopping-cart"></i></span>
             Add to cart
-          </button>
-          <button class="btn btn-icon btn-primary">
-            <i class="fas fa-paper-plane"></i>
+          </a>
+          <a class="btn btn-primary">
+            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
             Send
-          </button>
-          <button class="btn btn-icon btn-danger">
-            <i class="fas fa-trash-alt"></i>
+          </a>
+          <a class="btn btn-danger">
+            <span class="btn-icon"><i class="fas fa-trash-alt"></i></span>
             Delete
-          </button>
+          </a>
         </div>
 
         <code class="code-display-container">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520btn-primary%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Add%2520to%2520cart%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520btn-primary%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Send%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520btn-danger%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%250A%2509Delete%250A%253C%252Fbutton%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520class%253D%2522btn%2520btn-primary%2522%253E%250A%2509%253Cspan%2520class%253D%2522btn-icon%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2509%2509Add%2520to%2520cart%250A%253C%252Fa%253E%250A%250A%253Ca%2520class%253D%2522btn%2520btn-primary%2522%253E%250A%2509%253Cspan%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2509%2509Send%250A%253C%252Fa%253E%250A%250A%253Ca%2520class%253D%2522btn%2520btn-danger%2522%253E%250A%2509%253Cspan%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2509%2509Delete%250A%253C%252Fa%253E"
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>
         </code>
         <!-- --------------------- -->
 
-        <!-- floating action button -->
+        <!-- floating-action-button -->
         <div class="component-variation-description">
           <h2>Floating Action Button</h2>
           <p>
@@ -180,23 +175,23 @@
 
         <div class="component-display-container">
           <div class="floating-btns">
-            <button class="btn-floating btn-primary">
+            <a href="" class="btn-floating btn-primary">
               <i class="fas fa-plus"></i>
-            </button>
+            </a>
 
-            <button class="btn-floating btn-primary">
+            <a href="" class="btn-floating btn-primary">
               <i class="fas fa-arrow-up" style="user-select: auto"></i>
-            </button>
+            </a>
 
-            <button class="btn-floating btn-primary">
+            <a href="" class="btn-floating btn-primary">
               <i class="fas fa-check"></i>
-            </button>
+            </a>
           </div>
         </div>
 
         <code class="code-display-container">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-floating%2520btn-primary%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn-floating%2520btn-primary%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%2520style%253D%2522user-select%253A%2520auto%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn-floating%2520btn-primary%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn-floating%2520btn-primary%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fa%253E%250A%250A%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn-floating%2520btn-primary%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%2520style%253D%2522user-select%253A%2520auto%2522%253E%253C%252Fi%253E%250A%253C%252Fa%253E%250A%250A%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn-floating%2520btn-primary%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%250A%253C%252Fa%253E"
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>
@@ -204,6 +199,11 @@
         <!-- --------------------- -->
       </main>
     </div>
+
+    <a href="" class="btn-floating btn-primary floating-up-arrow-btn" role="button">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
     <script src="/docsite-js/sidebar.js"></script>
   </body>
 </html>

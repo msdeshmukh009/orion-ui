@@ -30,27 +30,27 @@
 .input-grp-success {
   color: var(--btn-success-color);
 }
-.input-grp-success input {
+.input-grp-success .form-field {
   border: 2px solid var(--btn-success-color);
 }
-.input-grp-success input::placeholder {
+.input-grp-success .form-field::placeholder {
   color: var(--btn-success-color);
 }
-.input-grp-success input:focus {
+.input-grp-success .form-field:focus {
   border: 2px solid var(--secondary-color);
   box-shadow: var(--form-field-shadow);
 }
 .input-grp-error {
   color: var(--danger-alert-text-color);
 }
-.input-grp-error input {
+.input-grp-error .form-field {
   border: 2px solid var(--danger-alert-text-color);
 }
-.input-grp-error input:focus {
+.input-grp-error .form-field:focus {
   border: 2px solid var(--secondary-color);
   box-shadow: var(--form-field-shadow);
 }
-.input-grp-error input::placeholder {
+.input-grp-error .form-field::placeholder {
   border: 2px solid var(--danger-alert-text-color);
 }
 .txt-message {

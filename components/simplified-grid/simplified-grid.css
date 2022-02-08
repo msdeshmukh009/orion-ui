@@ -20,11 +20,13 @@
   width: 100%;
   max-width: 60rem;
 }
-@media only screen and (max-width: 900px) {
-  .grid-50-50 {
-    grid-template-columns: 1fr;
-  }
+@media only screen and (max-width: 1400px) {
   .grid-3-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .grid-50-50 {
     grid-template-columns: 1fr;
   }
   .grid-30-70 {
@@ -32,6 +34,9 @@
   }
   .grid-70-30 {
     display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid-3-col {
     grid-template-columns: 1fr;
   }
 }

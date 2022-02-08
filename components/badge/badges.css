@@ -32,6 +32,11 @@
   align-items: center;
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  bottom: 0.8rem;
+  right: -1rem;
 }
 .anchor-tag-badge-container {
   text-decoration: none;
@@ -61,11 +66,4 @@
   right: 0;
   width: 0.8rem;
   height: 0.8rem;
-}
-.number-badge {
-  width: 1.5rem;
-  height: 1.5rem;
-  border: none;
-  bottom: 0.8rem;
-  right: -1rem;
 }

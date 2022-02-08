@@ -1,9 +1,11 @@
-@import url(/components/colors.css);
 .btn {
   padding: 0.5rem 0.75rem;
   border: none;
   border-radius: 00.3rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 /*** primary-buttons ***/
 .btn-primary {
@@ -99,14 +101,12 @@
   background-color: transparent;
   font-size: 1.2rem;
   border: 2px solid transparent;
-}
-
-.link-btn a {
   text-decoration: none;
   color: var(--text-color);
   border-bottom: 2px solid var(--primary-color);
 }
-.link-btn a:hover {
+
+.link-btn:hover {
   color: var(--primary-color);
 }
 /*******/
@@ -122,10 +122,20 @@
 .btn-floating {
   border: none;
   border-radius: 50%;
-  padding: 0.5rem;
+  height: 50px;
+  width: 50px;
   font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 .btn-floating:hover {
   opacity: 0.8;
+}
+.floating-up-arrow-btn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
 }
 /*******/

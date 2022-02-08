@@ -23,15 +23,12 @@
 .doc-main-content {
   grid-area: main;
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 1rem 2rem;
 }
 /*******/
 
 /*** media-quires ***/
 @media only screen and (max-width: 800px) {
-  /* .doc-container {
-    width: 100%;
-  } */
   .grid-page-layout {
     grid-template-columns: 1fr;
     grid-template-areas:

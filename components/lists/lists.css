@@ -1,5 +1,5 @@
 @import url(/components/colors.css);
-/*** common-list-syle ***/
+/*** common-list-style ***/
 .styled-list {
   padding: 0 1rem;
 }
@@ -8,7 +8,7 @@
 }
 /*******/
 
-/*** unorderd-list ***/
+/*** unordered-list ***/
 .square-bullet-list {
   list-style-type: square;
 }

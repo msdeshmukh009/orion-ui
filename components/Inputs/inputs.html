@@ -149,9 +149,9 @@
         </code>
         <!-- ----------------------- -->
 
-        <!-- Signup-form-example -->
+        <!-- Authentication-forms-example -->
         <div class="component-variation-description">
-          <h2>Signup from example</h2>
+          <h2>Authentication Forms</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia maxime labore distinctio ducimus quidem ea beatae animi quas eaque!
           </p>
@@ -159,30 +159,73 @@
 
         <div class="component-display-container">
           <form class="form-grp">
-            <h2 class="form-heading">SignUp</h2>
+            <h2 class="text-center text-lg">Signin</h2>
             <div class="input-grp">
               <label class="form-label form-label-required">Email</label>
               <input class="form-field" type="email" placeholder="example@xyz.com" />
             </div>
-            <div class="input-grp">
-              <label class="form-label form-label-required">Username</label>
-              <input class="form-field" type="text" placeholder="ex. cooluser" />
-            </div>
+
             <div class="input-grp">
               <label class="form-label form-label-required">Password</label>
-              <input class="form-field" type="password" />
+              <input class="form-field" type="password" placeholder="********" />
             </div>
+
+            <div class="options">
+              <label class="form-label" for="remember me"><input type="checkbox" name="remember me" />Remember me</label>
+              <a class="link-btn" href="#">Forgot your password?</a>
+            </div>
+
+            <button class="btn btn-primary btn-submit">Login</button>
+
+            <div class="redirect-link text-center">
+              <a class="link-btn" href="#">Create new account&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></a>
+            </div>
+          </form>
+
+          <form class="form-grp">
+            <h2 class="text-center text-lg">Signup</h2>
             <div class="input-grp">
-              <label class="form-label form-label-required">Confirm Password</label>
-              <input class="form-field" type="password" />
+              <label class="form-label form-label-required">Email</label>
+              <input class="form-field" type="email" placeholder="example@xyz.com" />
             </div>
-            <button class="btn btn-primary btn-submit">SignUp</button>
+
+            <div class="input-grp">
+              <label class="form-label form-label-required">Username</label>
+              <input class="form-field" type="text" />
+            </div>
+
+            <div class="input-grp">
+              <label class="form-label form-label-required">Password</label>
+              <input class="form-field" type="password" placeholder="********" />
+            </div>
+
+            <div class="input-grp">
+              <label class="form-label form-label-required">Confirm password</label>
+              <input class="form-field" type="password" placeholder="********" />
+            </div>
+
+            <div class="options">
+              <label class="form-label" for="agreement"><input type="checkbox" name="agreement" />I agree to all Terms & Conditions</label>
+            </div>
+
+            <button class="btn btn-primary btn-submit">Create new account</button>
+
+            <div class="redirect-link text-center">
+              <a class="link-btn" href="#">Already have an account&nbsp;&nbsp;<i class="fas fa-chevron-right"></i></a>
+            </div>
           </form>
         </div>
 
         <code class="code-display-container">
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form-grp%2522%253E%250A%2509%253Ch2%2520class%253D%2522form-heading%2522%253ESignUp%253C%252Fh2%253E%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EEmail%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522example%2540xyz.com%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EUsername%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522ex.%2520cooluser%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EPassword%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522password%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EConfirm%2520Password%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522password%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%250A%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-submit%2522%253ESignUp%253C%252Fbutton%253E%250A%253C%252Fform%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form-grp%2522%253E%250A%2509%253Ch2%2520class%253D%2522form-heading%2522%253ESignin%253C%252Fh2%253E%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EEmail%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522example%2540xyz.com%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EPassword%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522********%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522options%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522remember%2520me%2522%253E%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522remember%2520me%2522%2520%252F%253ERemember%2520me%253C%252Flabel%253E%250A%2509%2509%253Ca%2520class%253D%2522link%2520text-primary-color%2522%2520href%253D%2522%2523%2522%253EForgot%2520your%2520password%253F%253C%252Fa%253E%250A%2509%253C%252Fdiv%253E%250A%2509%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-submit%2522%253ELogin%253C%252Fbutton%253E%250A%2509%253Cdiv%2520class%253D%2522redirect-link%2520text-center%2522%253E%250A%2509%2509%253Ca%2520class%253D%2522link-btn%2522%2520href%253D%2522%2523%2522%253ECreate%2520new%2520account%2520%253Ci%2520class%253D%2522fas%2520fa-chevron-right%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fform%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form-grp%2522%253E%250A%2509%253Ch2%2520class%253D%2522form-heading%2522%253ESignup%253C%252Fh2%253E%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EEmail%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522example%2540xyz.com%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2520%2520%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EUsername%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522text%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EPassword%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522********%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522input-grp%2522%253E%250A%2509%2509%253Clabel%2520class%253D%2522form-label%2520form-label-required%2522%253EConfirm%2520password%253C%252Flabel%253E%250A%2509%2509%253Cinput%2520class%253D%2522form-field%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522********%2522%2520%252F%253E%250A%2509%253C%252Fdiv%253E%250A%2509%2520%253Cdiv%2520class%253D%2522options%2522%253E%250A%2509%253Clabel%2520class%253D%2522form-label%2522%2520for%253D%2522agreement%2522%253E%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522agreement%2522%2520%252F%253EI%2520agree%2520to%2520all%2520Terms%2520%2526%2520Conditions%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-submit%2522%253ECreate%2520new%2520account%253C%252Fbutton%253E%250A%2509%253Cdiv%2520class%253D%2522redirect-link%2520text-center%2522%253E%250A%2509%2509%253Ca%2520class%253D%2522link-btn%2522%2520href%253D%2522%2523%2522%253EAlready%2520have%2520an%2520account%2520%253Ci%2520class%253D%2522fas%2520fa-chevron-right%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fform%253E"
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>

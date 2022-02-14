@@ -29,6 +29,9 @@
 
 /*** media-quires ***/
 @media only screen and (max-width: 800px) {
+  html {
+    font-size: 75%;
+  }
   .grid-page-layout {
     grid-template-columns: 1fr;
     grid-template-areas:

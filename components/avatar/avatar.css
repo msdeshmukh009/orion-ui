@@ -23,9 +23,6 @@
   font-size: 1rem;
 }
 .text-avatar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }

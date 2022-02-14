@@ -17,11 +17,24 @@
 }
 
 .rounded-top-corner-img {
-  border-radius: 0.3rem;
+  border-radius: 4.8px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 /*** vertical-card ***/
+.vertical-card {
+  min-height: 28rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-call-to-action {
+  margin-top: auto;
+}
+.card-info-container {
+  margin: auto auto;
+  width: 100%;
+}
 .card-heading {
   font-weight: 400;
   padding: 0.5rem 0.75rem;
@@ -29,6 +42,22 @@
 .card-sub-heading {
   font-weight: 500;
   padding: 0 0.75rem;
+}
+.card-wishlist-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.card-wishlist-btn-clicked {
+  color: rgb(248, 34, 34);
+}
+.card-wishlist-btn:hover {
+  opacity: 1;
 }
 .card-paragrph {
   font-size: 0.875rem;
@@ -116,19 +145,16 @@
   .card {
     width: 100%;
   }
-  .card-call-to-action button {
-    font-size: 0.8rem;
-  }
   .horizontal-card {
     width: 100%;
+  }
+  .vertical-card {
+    min-height: auto;
   }
   .horizontal-card .card-image-container {
     width: 40%;
     display: flex;
     align-items: center;
-  }
-  .horizontal-card .card-call-to-action {
-    flex-wrap: wrap;
   }
   .horizontal-card .card-image-container img {
     height: 50%;
@@ -136,8 +162,5 @@
   .card-close-btn {
     right: 0;
     top: 0;
-  }
-  .overlay-text {
-    font-size: 1.8rem;
   }
 }

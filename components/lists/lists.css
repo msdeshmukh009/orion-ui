@@ -1,10 +1,10 @@
 @import url(/components/colors.css);
 /*** common-list-style ***/
 .styled-list {
-  padding: 0 1rem;
+  padding: 0 var(--md-space);
 }
 .styled-list li {
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--sm-space);
 }
 /*******/
 
@@ -38,7 +38,7 @@
 /*** inline-list ***/
 .inline-style-list {
   display: flex;
-  column-gap: 1rem;
+  column-gap: var(--md-space);
   padding-inline-start: 0;
 }
 /*******/
@@ -52,7 +52,7 @@
 .stacked-list-item {
   display: flex;
   align-items: center;
-  column-gap: 0.5rem;
+  column-gap: var(--sm-space);
   padding: 0.5rem 0.75rem;
   border: 2px solid var(--secondary-color);
   border-radius: 0.75rem;
@@ -60,8 +60,8 @@
 }
 .message-text {
   background-color: var(--background-color);
-  padding: 0.3rem 0.5rem;
-  border-radius: 0.3rem;
+  padding: var(--sm-space);
+  border-radius: 4.8px;
   min-width: 70%;
 }
 .reply-icon {
@@ -77,10 +77,8 @@
 @media only screen and (max-width: 600px) {
   .stacked-list {
     width: 100%;
-    font-size: 0.8rem;
   }
   .stacked-list-item {
     width: 100%;
-    padding: 0.3rem;
   }
 }

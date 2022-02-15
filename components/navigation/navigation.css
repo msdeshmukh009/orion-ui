@@ -22,6 +22,7 @@
   position: absolute;
   right: 0;
   background-color: transparent;
+  box-shadow: none;
 }
 .nav-list {
   display: flex;

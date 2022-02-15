@@ -1,11 +1,11 @@
 @import url(/components/colors.css);
 .input-grp {
   width: 100%;
-  margin: 1rem 0 0.5rem;
+  margin: var(--md-space) var(--sm-space);
 }
 .form-label {
   display: inline-block;
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--sm-space);
 }
 .form-label-required::after {
   content: "*";
@@ -15,7 +15,7 @@
   display: block;
   width: 100%;
   padding: 0.65rem 1rem;
-  border-radius: 0.3rem;
+  border-radius: 4.8px;
   border: 2px solid var(--secondary-color);
   outline: none;
 }
@@ -24,6 +24,7 @@
 }
 .form-field:disabled {
   background-color: var(--card-overlay-text-color);
+  cursor: not-allowed;
 }
 
 /*** validator-inputs ***/
@@ -54,23 +55,31 @@
   border: 2px solid var(--danger-alert-text-color);
 }
 .txt-message {
-  font-size: 0.8rem;
+  font-size: 12.8px;
 }
 /*******/
 
 /*** signup-form ***/
 .form-grp {
   background-color: var(--light-secondary-color);
-  padding: 1rem 2rem;
-  border-radius: 00.3rem;
+  padding: var(--md-space) var(--xl-space);
+  border-radius: 4.8px;
   width: 25rem;
-}
-.form-heading {
-  text-align: center;
+  box-shadow: var(--card-shadow);
 }
 .btn-submit {
   width: 100%;
-  margin-top: 1rem;
+  margin-top: var(--md-space);
+}
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  column-gap: var(--sm-space);
+  flex-wrap: wrap;
+}
+.redirect-link {
+  margin-top: var(--lg-space);
 }
 /*******/
 @media only screen and (max-width: 600px) {

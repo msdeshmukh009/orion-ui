@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 0.3rem;
-  row-gap: 1rem;
+  row-gap: var(--md-space);
   align-items: center;
   width: 50%;
   position: relative;
@@ -29,7 +29,7 @@
 }
 .modal-cta {
   display: flex;
-  column-gap: 1rem;
+  column-gap: var(--md-space);
 }
 .modal-background {
   display: none;
@@ -45,8 +45,8 @@
 .dialog-box {
   width: 20%;
   border: none;
-  border-radius: 0.3rem;
-  padding: 1.2rem 0.75rem;
+  border-radius: 4.8px;
+  padding: var(--md-space);
   display: flex;
   flex-direction: column;
   box-shadow: var(--card-shadow);
@@ -62,8 +62,8 @@
 .dialog-list-item {
   display: flex;
   align-items: center;
-  padding: 0.3rem;
-  border-radius: 0.3rem;
+  padding: 4.8px;
+  border-radius: 4.8px;
 }
 .dialog-list-item:hover {
   background-color: var(--secondary-color);
@@ -72,8 +72,8 @@
   background-color: var(--secondary-color);
   border: none;
   border-radius: 50%;
-  padding: 0.5rem;
-  margin-right: 1rem;
+  padding: var(--sm-space);
+  margin-right: var(--md-space);
   font-size: 1.5rem;
 }
 .list-overflow {
@@ -88,8 +88,8 @@
 .dialog-cta {
   display: flex;
   justify-content: flex-end;
-  column-gap: 1rem;
-  margin-top: 0.5rem;
+  column-gap: var(--md-space);
+  margin-top: var(--sm-space);
 }
 /*** dialog-modal ***/
 /*******/

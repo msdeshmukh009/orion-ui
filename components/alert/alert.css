@@ -1,11 +1,11 @@
 .alert-box {
   width: 100%;
   max-width: 70rem;
-  padding: 1rem 1.5rem;
-  border-radius: 0.3rem;
+  padding: var(--md-space) var(--lg-space);
+  border-radius: 4.8px;
   position: relative;
   display: flex;
-  column-gap: 1rem;
+  column-gap: var(--md-space);
 }
 .alert-primary {
   background-color: var(--primary-alert-bg-color);

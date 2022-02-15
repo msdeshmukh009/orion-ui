@@ -13,10 +13,12 @@
 @import url(/components/simplified-grid/simplified-grid.css);
 @import url(/components/textUtilities/textUtilities.css);
 @import url(/components/toast/toast.css);
+@import url(/components/helper.css);
 /*******/
 
 /*** root ***/
 :root {
+  /*** colors ***/
   --primary-color: #30a1ec;
   --medium-dark-primary-color: #78c6fa;
   --lighter-primary-color: #94d4ff;
@@ -25,7 +27,7 @@
   --light-secondary-color: #f0f7f8;
 
   --background-color: #fdfeff;
-  --text-color: rgb(47, 48, 49);
+  --text-color: rgb(74, 80, 85);
 
   --badge-online-color: rgb(63, 197, 63);
   --badge-offline-color: rgb(165, 164, 164);
@@ -59,7 +61,9 @@
 
   --sidebar-bg-color: hsl(0 0% 100% / 0.1);
   --sidebar-fallback-bg-color: hsl(0 0% 100% / 0.85);
+  /*******/
 
+  /*** shadow ***/
   --card-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   --card-hover-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 
@@ -67,6 +71,20 @@
 
   --nav-bar-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
   --sidebar-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+  /*******/
+
+  /*** font-family ***/
+  --font-family-ultra: "ultraregular", sans-serif;
+  /*******/
+
+  /*** spacing ***/
+  --sm-space: 0.5rem;
+  --md-space: 1rem;
+  --lg-space: 1.5rem;
+  --xl-space: 2rem;
+  --xxl-space: 2.5rem;
+  --xxxl-space: 3rem;
+  /*******/
 }
 /*******/
 

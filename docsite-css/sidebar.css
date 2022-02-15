@@ -6,7 +6,7 @@
   position: sticky;
   top: 0;
   height: 100vh;
-  padding: 1rem;
+  padding: var(--md-space);
   box-shadow: var(--sidebar-shadow);
   z-index: 1;
   overflow: scroll;
@@ -22,8 +22,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  row-gap: 1rem;
-  border-radius: 0.3rem;
+  row-gap: var(--md-space);
+  border-radius: 4.8px;
 }
 .sidebar-links {
   text-decoration: none;

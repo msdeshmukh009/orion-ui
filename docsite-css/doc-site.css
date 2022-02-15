@@ -7,7 +7,7 @@
 .grid-page-layout {
   display: grid;
   grid-template-columns: 250px 1fr 1fr;
-  column-gap: 1rem;
+  column-gap: var(--md-space);
   grid-template-areas:
     "nav nav nav"
     "sidebar main main";
@@ -23,12 +23,15 @@
 .doc-main-content {
   grid-area: main;
   width: 100%;
-  padding: 1rem 1rem 2rem;
+  padding: var(--md-space) var(--md-space) var(--xl-space);
 }
 /*******/
 
 /*** media-quires ***/
 @media only screen and (max-width: 800px) {
+  html {
+    font-size: 80%;
+  }
   .grid-page-layout {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -40,13 +43,13 @@
     display: none;
   }
   .doc-container .nav-bar-title {
-    column-gap: 1rem;
+    column-gap: var(--md-space);
     align-items: baseline;
   }
 }
 .component-description {
-  margin: 0 1rem;
+  margin: 0 var(--md-space);
 }
 .component-variation-description {
-  margin: 1rem;
+  margin: var(--md-space);
 }

@@ -6,6 +6,8 @@
   cursor: pointer;
   text-decoration: none;
   color: inherit;
+  transition: all 0.3s ease 0s;
+  box-shadow: var(--card-shadow);
 }
 /*** primary-buttons ***/
 .btn-primary {
@@ -35,15 +37,22 @@
 .btn:hover {
   opacity: 0.8;
 }
+.btn:active {
+  transform: translateY(2.5px);
+}
 /*******/
 
 /*** outline-buttons ***/
+.btn-outline {
+  border: 2px solid transparent;
+  background-color: var(--background-color);
+}
 .btn-outline-primary {
   border: 2px solid var(--primary-color);
   background-color: var(--background-color);
 }
-.btn-outline-primary:hover {
-  border: 2px solid var(--primary-color);
+.btn-outline-primary:hover,
+.btn-outline:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }

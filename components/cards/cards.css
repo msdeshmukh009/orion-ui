@@ -53,6 +53,9 @@
   opacity: 0.5;
   cursor: pointer;
 }
+.card-wishlist-btn:active {
+  transform: translateY(1px);
+}
 .card-wishlist-btn-clicked {
   color: rgb(248, 34, 34);
 }

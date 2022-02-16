@@ -1,16 +1,15 @@
 .card {
-  width: 20rem;
   border: 2px solid var(--light-secondary-color);
-  border-radius: 0.3rem;
-  height: fit-content;
+  border-radius: 4.8px;
   position: relative;
 }
 .text-card {
   padding: 1rem;
 }
 
-.card-content {
+.card-text {
   margin-top: 0.75rem;
+  width: 30ch;
 }
 .card:hover {
   border: 2px solid var(--secondary-color);
@@ -21,27 +20,32 @@
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+
 /*** vertical-card ***/
 .vertical-card {
-  min-height: 28rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 .card-call-to-action {
   margin-top: auto;
 }
 .card-info-container {
-  margin: auto auto;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: var(--sm-space);
 }
 .card-heading {
-  font-weight: 400;
-  padding: 0.5rem 0.75rem;
+  width: 20ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .card-sub-heading {
-  font-weight: 500;
-  padding: 0 0.75rem;
+  width: 30ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .card-wishlist-btn {
   background-color: transparent;
@@ -62,33 +66,38 @@
 .card-wishlist-btn:hover {
   opacity: 1;
 }
-.card-paragrph {
-  font-size: 0.875rem;
-  font-weight: 400;
-  margin-bottom: 1rem;
-  padding: 0 0.75rem;
+
+.card-cta-vertical {
+  padding: var(--sm-space);
 }
-.card-call-to-action {
+
+/*******/
+
+/*** horizontal-card ***/
+.horizontal-card {
+  display: flex;
+  width: fit-content;
+  justify-content: space-between;
+}
+.horizontal-card-content {
+  flex-shrink: 1;
+}
+.horizontal-card .card-image-container img {
+  height: 100%;
+}
+.card-call-to-action-horizontal {
   display: flex;
   column-gap: 1rem;
   row-gap: 1rem;
   flex-wrap: wrap;
   margin: 0.5rem;
 }
-/*******/
-
-/*** horizontal-card ***/
-.horizontal-card {
-  display: flex;
-  column-gap: 1rem;
-  width: 30rem;
-}
-.horizontal-card .card-image-container {
-  width: 40%;
-  flex-shrink: 0;
-}
-.horizontal-card .card-image-container img {
-  height: 100%;
+.card-paragraph {
+  width: 30ch;
+  height: 5ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 /*******/
 
@@ -151,19 +160,18 @@
   .horizontal-card {
     width: 100%;
   }
-  .vertical-card {
-    min-height: auto;
-  }
-  .horizontal-card .card-image-container {
-    width: 40%;
-    display: flex;
-    align-items: center;
-  }
-  .horizontal-card .card-image-container img {
-    height: 50%;
-  }
   .card-close-btn {
     right: 0;
     top: 0;
+  }
+  .card-heading,
+  .card-sub-heading,
+  .card-paragraph {
+    width: 13ch;
+  }
+  .card-sub-heading,
+  .card-paragraph {
+    height: 5ch;
+    white-space: pre-line;
   }
 }

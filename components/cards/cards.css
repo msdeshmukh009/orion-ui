@@ -42,7 +42,7 @@
   white-space: nowrap;
 }
 .card-sub-heading {
-  width: 30ch;
+  width: 28ch;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

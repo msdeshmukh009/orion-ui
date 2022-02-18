@@ -20,6 +20,9 @@
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+.text-card .card-cta-vertical .btn-outline {
+  box-shadow: none;
+}
 
 /*** vertical-card ***/
 .vertical-card {
@@ -69,6 +72,9 @@
 
 .card-cta-vertical {
   padding: var(--sm-space);
+  display: flex;
+  justify-content: flex-end;
+  column-gap: var(--md-space);
 }
 
 /*******/

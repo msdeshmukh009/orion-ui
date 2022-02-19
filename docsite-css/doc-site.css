@@ -27,6 +27,21 @@
 }
 /*******/
 
+/*** dark-mode ***/
+.dark-mode {
+  --background-color: #16191f;
+  --text-color: rgb(181, 192, 202);
+  --sidebar-bg-color: rgba(27, 26, 26, 0.1);
+  --sidebar-fallback-bg-color: rgba(44, 42, 42, 0.85);
+  --sidebar-list-hover-color: #3b3f3f;
+  --border-color: #6b7375;
+}
+.btn-darkmode-toggle {
+  background-color: inherit;
+  box-shadow: none;
+}
+/*******/
+
 /*** media-quires ***/
 @media only screen and (max-width: 800px) {
   html {

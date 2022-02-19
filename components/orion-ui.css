@@ -29,6 +29,8 @@
   --background-color: #fdfeff;
   --text-color: rgb(74, 80, 85);
 
+  --border-color: #d2e1e6;
+
   --badge-online-color: rgb(63, 197, 63);
   --badge-offline-color: rgb(165, 164, 164);
   --badge-dnd-color: rgb(233, 76, 76);
@@ -61,6 +63,8 @@
 
   --sidebar-bg-color: hsl(0 0% 100% / 0.1);
   --sidebar-fallback-bg-color: hsl(0 0% 100% / 0.85);
+  --sidebar-list-hover-color: #e9ecec;
+
   /*******/
 
   /*** shadow ***/

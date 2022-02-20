@@ -32,6 +32,7 @@ Copy and paste the code in the head tag of your HTML document. So that you can s
 - [Rating](https://orion-ui.netlify.app/components/rating/rating.html)
 - [Toast](https://orion-ui.netlify.app/components/toast/toast.html)
 - [Simplified Grid](https://orion-ui.netlify.app/components/simplified-grid/simplified-grid.html)
+- [Slider](https://orion-ui.netlify.app/components/slider/slider.html)
 
 ## Previews
 

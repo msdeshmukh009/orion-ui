@@ -13,6 +13,7 @@
 @import url(/components/simplified-grid/simplified-grid.css);
 @import url(/components/textUtilities/textUtilities.css);
 @import url(/components/toast/toast.css);
+@import url(/components/slider/slider.css);
 @import url(/components/helper.css);
 /*******/
 
@@ -64,6 +65,8 @@
   --sidebar-bg-color: hsla(0, 0%, 100%, 0.1);
   --sidebar-fallback-bg-color: hsla(0, 0%, 100%, 0.85);
   --sidebar-list-hover-color: hsl(180, 7%, 92%);
+
+  --slider-bg-color: hsl(202, 8%, 80%);
 
   /*******/
 

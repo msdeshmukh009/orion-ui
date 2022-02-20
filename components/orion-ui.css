@@ -19,58 +19,62 @@
 /*** root ***/
 :root {
   /*** colors ***/
-  --primary-color: #30a1ec;
-  --medium-dark-primary-color: #78c6fa;
-  --lighter-primary-color: #94d4ff;
+  --primary-color: hsl(204, 83%, 56%);
+  --medium-dark-primary-color: hsl(204, 93%, 73%);
+  --lighter-primary-color: hsl(204, 100%, 79%);
 
-  --secondary-color: #e5ecee;
-  --light-secondary-color: #f0f7f8;
+  --secondary-color: hsl(193, 21%, 92%);
+  --light-secondary-color: hsl(187, 36%, 96%);
 
-  --background-color: #fdfeff;
-  --text-color: rgb(74, 80, 85);
+  --background-color: hsl(210, 100%, 100%);
+  --text-color: hsl(207, 7%, 31%);
 
-  --badge-online-color: rgb(63, 197, 63);
-  --badge-offline-color: rgb(165, 164, 164);
-  --badge-dnd-color: rgb(233, 76, 76);
+  --border-color: hsl(195, 29%, 86%);
 
-  --btn-success-color: rgb(56, 194, 56);
-  --btn-warning-color: rgb(248, 176, 68);
-  --btn-dark-color: #131212;
-  --btn-danger-color: rgb(235, 45, 73);
+  --badge-online-color: hsl(120, 54%, 51%);
+  --badge-offline-color: hsl(0, 1%, 65%);
+  --badge-dnd-color: hsl(0, 78%, 61%);
 
-  --primary-alert-bg-color: rgb(174, 237, 253);
-  --primary-alert-text-color: rgb(35, 113, 133);
-  --secondary-alert-bg-color: rgb(235, 225, 225);
-  --secondary-alert-text-color: rgb(122, 121, 121);
-  --success-alert-bg-color: rgb(139, 250, 139);
-  --success-alert-text-color: rgb(40, 122, 40);
-  --danger-alert-bg-color: rgb(255, 159, 173);
-  --danger-alert-text-color: rgb(211, 38, 64);
-  --warning-alert-bg-color: rgb(255, 206, 132);
-  --warning-alert-text-color: rgb(204, 137, 36);
+  --btn-success-color: hsl(120, 55%, 49%);
+  --btn-warning-color: hsl(36, 93%, 62%);
+  --btn-dark-color: hsl(0, 3%, 7%);
+  --btn-danger-color: hsl(351, 83%, 55%);
 
-  --card-overlay-color: rgb(234, 234, 236, 0.6);
-  --card-overlay-text-color: #eaeaec;
+  --primary-alert-bg-color: hsl(192, 95%, 84%);
+  --primary-alert-text-color: hsl(192, 58%, 33%);
+  --secondary-alert-bg-color: hsl(0, 20%, 90%);
+  --secondary-alert-text-color: hsl(0, 0%, 48%);
+  --success-alert-bg-color: hsl(120, 92%, 76%);
+  --success-alert-text-color: hsl(120, 51%, 32%);
+  --danger-alert-bg-color: hsl(351, 100%, 81%);
+  --danger-alert-text-color: hsl(351, 69%, 49%);
+  --warning-alert-bg-color: hsl(36, 100%, 76%);
+  --warning-alert-text-color: hsl(36, 70%, 47%);
 
-  --modal-background-color: rgba(0, 0, 0, 0.4);
+  --card-overlay-color: hsla(240, 5%, 92%, 0.6);
+  --card-overlay-text-color: hsl(240, 5%, 92%);
 
-  --toast-link-color: #953eff;
+  --modal-background-color: hsla(0, 0%, 0%, 0.4);
 
-  --rating-star-color: #ffc43b;
-  --rating-star-hover-color: #f5e0af;
+  --toast-link-color: hsl(267, 100%, 62%);
 
-  --sidebar-bg-color: hsl(0 0% 100% / 0.1);
-  --sidebar-fallback-bg-color: hsl(0 0% 100% / 0.85);
+  --rating-star-color: hsl(42, 100%, 62%);
+  --rating-star-hover-color: hsl(42, 78%, 82%);
+
+  --sidebar-bg-color: hsla(0, 0%, 100%, 0.1);
+  --sidebar-fallback-bg-color: hsla(0, 0%, 100%, 0.85);
+  --sidebar-list-hover-color: hsl(180, 7%, 92%);
+
   /*******/
 
   /*** shadow ***/
-  --card-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  --card-hover-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  --card-shadow: 0 4px 8px 0 hsla(0, 0%, 0%, 0.2);
+  --card-hover-shadow: 0 8px 16px 0 hsla(0, 0%, 0%, 0.2);
 
   --form-field-shadow: 0 0 0 1px var(--primary-color);
 
-  --nav-bar-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
-  --sidebar-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+  --nav-bar-shadow: 0px 0px 10px 4px hsla(0, 0%, 0%, 0.05);
+  --sidebar-shadow: 0 4px 12px 0 hsla(0, 0%, 0%, 0.05);
   /*******/
 
   /*** font-family ***/

@@ -27,6 +27,21 @@
 }
 /*******/
 
+/*** dark-mode ***/
+.dark-mode {
+  --background-color: hsl(220, 17%, 10%);
+  --text-color: hsl(209, 17%, 75%);
+  --sidebar-bg-color: hsla(0, 2%, 10%, 0.1);
+  --sidebar-fallback-bg-color: hsla(0, 2%, 17%, 0.85);
+  --sidebar-list-hover-color: hsl(180, 3%, 24%);
+  --border-color: hsl(192, 4%, 44%);
+}
+.btn-darkmode-toggle {
+  background-color: inherit;
+  box-shadow: none;
+}
+/*******/
+
 /*** media-quires ***/
 @media only screen and (max-width: 800px) {
   html {

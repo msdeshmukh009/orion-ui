@@ -46,7 +46,7 @@
   display: flex;
   margin-right: 1rem;
   margin-left: auto;
-  width: 5rem;
+  /* width: 5rem; */
   justify-content: space-between;
   align-items: center;
   column-gap: 1rem;

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="../orion-ui.css" />
+    <link rel="stylesheet" href="/docsite-css/doc-site.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <div class="doc-container grid-page-layout">
+      <nav class="nav-bar">
+        <h2 class="nav-bar-title">
+          <button id="menu-icon-button" class="burger-menu-button">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a href="/index.html" class="nav-bar-links">Orion</a>
+          <span class="nav-bar-subtitle">v1.0</span>
+        </h2>
+        <ul class="nav-bar-list">
+          <li>
+            <a class="nav-bar-links" href="/index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-bar-links" href="https://github.com/msdeshmukh009/orion-ui" target="_blank"> <i class="fab fa-github"></i></a>
+          </li>
+          <li>
+            <button class="btn btn-darkmode-toggle" id="dark-mode-toggle"><i id="dark-mode-toggle-icon" class="text-primary-color fas"></i></button>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="sidebar" class="sidebar">
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-list">
+          <li><a class="sidebar-links" href="/components/avatar/avatar.html">Avatar</a></li>
+          <li><a class="sidebar-links" href="/components/alert/alerts.html">Alerts</a></li>
+          <li><a class="sidebar-links" href="/components/badge/badges.html">Badges</a></li>
+          <li><a class="sidebar-links" href="/components/buttons/buttons.html">Button</a></li>
+          <li><a class="sidebar-links" href="/components/cards/cards.html">Cards</a></li>
+          <li><a class="sidebar-links" href="/components/images/images.html">Images</a></li>
+          <li><a class="sidebar-links" href="/components/inputs/inputs.html">Input</a></li>
+          <li><a class="sidebar-links" href="/components/textUtilities/textUtilities.html">Text Utilities</a></li>
+          <li><a class="sidebar-links" href="/components/lists/lists.html">Lists</a></li>
+          <li><a class="sidebar-links" href="/components/navigation/navigation.html">Navigation</a></li>
+          <li><a class="sidebar-links" href="/components/modals/modals.html">Modals</a></li>
+          <li><a class="sidebar-links" href="/components/rating/rating.html">Rating</a></li>
+          <li><a class="sidebar-links" href="/components/toast/toast.html">Toast</a></li>
+          <li><a class="sidebar-links" href="/components/simplified-grid/simplified-grid.html">Simplified Grid</a></li>
+          <li><a class="sidebar-links active-sidebar-link" href="/components/slider/slider.html">Slider</a></li>
+        </ul>
+      </div>
+
+      <main id="doc-main-content" class="doc-main-content">
+        <div class="component-description">
+          <h1>Slider</h1>
+          <p>The sliders allow user to select value from the range along the bar.</p>
+        </div>
+
+        <div class="component-display-container">
+          <div class="slider-container">
+            <input type="range" class="slider" min="0" max="100" />
+          </div>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2509%253Cinput%2520type%253D%2522range%2522%2520class%253D%2522slider%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+
+        <div class="component-variation-description">
+          <h2>Javascript</h2>
+        </div>
+
+        <code class="code-display-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28229%2C236%2C238%2C1%29&t=one-light&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=52px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520slider%2520%253D%2520document.querySelector%28%2522.slider%2522%29%253B%250A%250Aslider.addEventListener%28%250A%2520%2520%2522input%2522%252C%250A%2520%2520%28%29%2520%253D%253E%250A%2520%2520%2520%2520%28slider.style.background%2520%253D%2520%2560linear-gradient%2890deg%252C%250A%2520%2520%2520%2520var%28--primary-color%29%2520%2524%257Bslider.value%257D%2525%252C%250A%2520%2520%2520%2520var%28--slider-bg-color%29%2520%2524%257Bslider.value%257D%2525%2560%29%250A%29%253B%250A"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </code>
+      </main>
+    </div>
+
+    <a href="#" class="btn-floating btn-primary floating-up-arrow-btn" role="button">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="/docsite-js/sidebar.js"></script>
+    <script src="/docsite-js/darkmode.js"></script>
+    <script src="slider.js"></script>
+  </body>
+</html>

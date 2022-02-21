@@ -1,10 +1,10 @@
 # [Orion-ui](https://orion-ui.netlify.app/)
 
-Orion is a CSS library, equipped with pre-defined styled classes, and Utilities, to get you quickly started with your project.
+Orion is a CSS library, equipped with pre-defined styled classes, and Utilities, to get you quickly started with your project. 
 
 ## How to use
 
-Copy and paste the code in the head tag of your HTML document. So that you can style your components by just adding class names to your HTML elements.
+Copy and paste the code in the head tag of your HTML document. So that you can style your components by just adding class names to your HTML elements. Visit [documentation](https://orion-ui.netlify.app/) site for more details. The documentation is available in dark mode as well.
 
 ```html
 <link rel="stylesheet" href="https://orion-ui.netlify.app/components/orion-ui.css" />
